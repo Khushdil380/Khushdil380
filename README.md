@@ -1,45 +1,81 @@
-## Hi there 👋
+<h1>👋 Hi there </h1>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=62F73A&center=true&width=435&lines=Hello+my+name+is+Khushdil+Ansari;This+is+2nd+line;This+is+third+line;This+is+fourth+line" alt="Typing SVG" />
+</p>
 
 
-
-## 🛠️ Skills & Technologies
+<h1>🛠️ Skills & Technologies</h1>
 
 <table>
   <tr>
-    <td align="center" width="160">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" alt="HTML5" /><br/>
-      <b>HTML5</b><br/>
-      <img src="https://progress-bar.dev/90/?title=Proficiency&width=120&color=29a329">
+    <td>
+      HTML5 <img src="https://img.icons8.com/color/30/html-5.png"/> ★★★★★
     </td>
-    <td align="center" width="160">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" alt="CSS3" /><br/>
-      <b>CSS3</b><br/>
-      <img src="https://progress-bar.dev/80/?title=Proficiency&width=120&color=2978b5">
+    <td>
+      CSS <img src="https://img.icons8.com/color/30/css3.png"/> ★★★★★
     </td>
-    <td align="center" width="160">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" alt="JavaScript" /><br/>
-      <b>JavaScript</b><br/>
-      <img src="https://progress-bar.dev/75/?title=Proficiency&width=120&color=f1c40f">
+    <td rowspan="6">
+      <!-- GitHub Stats, Contribution Graph or Animation -->
+      <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Khushdil380&theme=tokyonight" />
     </td>
   </tr>
+  
   <tr>
-    <td align="center" width="160">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" alt="React" /><br/>
-      <b>React</b><br/>
-      <img src="https://progress-bar.dev/70/?title=Proficiency&width=120&color=61dafb">
+    <td>
+      JavaScript <img src="https://img.icons8.com/color/30/javascript.png"/> ★★★★★
     </td>
-    <td align="center" width="160">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" alt="Python" /><br/>
-      <b>Python</b><br/>
-      <img src="https://progress-bar.dev/85/?title=Proficiency&width=120&color=306998">
-    </td>
-    <td align="center" width="160">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" alt="GitHub" /><br/>
-      <b>GitHub</b><br/>
-      <img src="https://progress-bar.dev/80/?title=Proficiency&width=120&color=000000">
+    <td>
+      React <img src="https://img.icons8.com/office/30/react.png"/> ★★★★☆
     </td>
   </tr>
+  
+  <tr>
+    <td>
+      Python <img src="https://img.icons8.com/color/30/python.png"/> ★★★★☆
+    </td>
+    <td>
+      Django <img src="https://img.icons8.com/color/30/django.png"/> ★★★★☆
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      Node.js <img src="https://img.icons8.com/color/30/nodejs.png"/> ★★★★☆
+    </td>
+    <td>
+      Express <img src="https://img.icons8.com/ios/30/express-js.png"/> ★★★☆☆
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      MongoDB <img src="https://img.icons8.com/color/30/mongodb.png"/> ★★★★☆
+    </td>
+    <td>
+      SQL <img src="https://img.icons8.com/ios-filled/30/database.png"/> ★★★★☆
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      Git <img src="https://img.icons8.com/color/30/git.png"/> ★★★★☆
+    </td>
+    <td>
+      GitHub <img src="https://img.icons8.com/material-rounded/30/github.png"/> ★★★★☆
+    </td>
+  </tr>
+  
 </table>
+
+
+
+
+
+
+ 
+
+
+
 
 
 
