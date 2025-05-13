@@ -1,0 +1,42 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .dot {
+      fill: #d1d5db;
+      r: 6;
+    }
+    .dot.blink {
+      animation: blink 1s infinite alternate;
+      fill: #22c55e;
+    }
+
+    @keyframes blink {
+      0% { opacity: 1; }
+      100% { opacity: 0.2; }
+    }
+
+    .car {
+      fill: red;
+      rx: 4;
+      ry: 4;
+    }
+  </style>
+
+  <!-- Contribution dots -->
+  <circle class="dot" cx="20"  cy="50"/>
+  <circle class="dot" cx="60"  cy="50"/>
+  <circle class="dot blink" cx="100" cy="50"/>
+  <circle class="dot" cx="140" cy="50"/>
+  <circle class="dot blink" cx="180" cy="50"/>
+  <circle class="dot" cx="220" cy="50"/>
+  <circle class="dot blink" cx="260" cy="50"/>
+
+  <!-- Car -->
+  <rect class="car" id="car" x="0" y="40" width="20" height="12">
+    <animate 
+      attributeName="x" 
+      values="0;100;180;260;0" 
+      dur="6s" 
+      repeatCount="indefinite" />
+  </rect>
+</svg>
+
