@@ -70,6 +70,16 @@
 
 
 
+## 🚀 Projects
+
+| Project | Details |
+|--------|---------|
+| **🧠 Project 1: Smart Farming System**<br>![Thumbnail](https://via.placeholder.com/300x150.png?text=Smart+Farming) | **📝 Description:** An intelligent platform for farmers to manage crop health, equipment rental, and market prices.<br>📅 **Start:** Jan 2024<br>📆 **End:** Apr 2024<br>🛠️ **Tech:** HTML, CSS, JS, Node.js<br>📱 **Platform:** Web<br>🔗 [Code Repo](https://github.com/YourUsername/SmartFarming)<br>▶️ [Demo Video](https://youtu.be/dummyvideo1) |
+| **💻 Project 2: E-Commerce Price Predictor**<br>![Thumbnail](https://via.placeholder.com/300x150.png?text=Price+Predictor) | **📝 Description:** A machine learning model to predict product prices based on demand and seasonality.<br>📅 **Start:** Mar 2024<br>📆 **End:** May 2024<br>🛠️ **Tech:** Python, Pandas, Scikit-learn<br>📱 **Platform:** Desktop<br>🔗 [Code Repo](https://github.com/YourUsername/PricePredictor)<br>▶️ [Demo Video](https://youtu.be/dummyvideo2) |
+| **🧭 Project 3: Professional Clock Widget**<br>![Thumbnail](https://via.placeholder.com/300x150.png?text=Clock+Widget) | **📝 Description:** A customizable Windows desktop clock with to-do list, timer, and settings panel.<br>📅 **Start:** Apr 2025<br>📆 **End:** May 2025<br>🛠️ **Tech:** Electron.js, HTML, CSS, JS<br>📱 **Platform:** Desktop App<br>🔗 [Code Repo](https://github.com/YourUsername/ClockWidget)<br>▶️ [Demo Video](https://youtu.be/dummyvideo3) |
+| **📊 Project 4: MongoDB Registration System**<br>![Thumbnail](https://via.placeholder.com/300x150.png?text=Registration+System) | **📝 Description:** A dynamic registration system with MongoDB backend for individuals, doctors, and chemists.<br>📅 **Start:** Feb 2025<br>📆 **End:** Apr 2025<br>🛠️ **Tech:** HTML, CSS, JS, MongoDB, Express.js<br>📱 **Platform:** Web<br>🔗 [Code Repo](https://github.com/YourUsername/MongoRegistration)<br>▶️ [Demo Video](https://youtu.be/dummyvideo4) |
+
+
 
 
 
