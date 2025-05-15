@@ -4,6 +4,22 @@
 </p>
 
 
+## 🌟 My Top Picks
+
+Here are some of my favorite projects that I personally use, maintain, or feel proud of. Explore them to see what I've been working on!
+
+### 🚀 Featured Projects
+
+| Project | Description | Stars |
+|--------|-------------|-------|
+| [🌱 GitHub Garden](https://github.com/Khushdil380/GitHub-garden) | A beautiful animated SVG contribution graph with flowers, growth stages & tooltips. Auto-updates daily! | ⭐ |
+| [📦 My Utilities](https://github.com/Khushdil380/my-utilities) | Collection of small handy tools and scripts I use daily – from automation to quick dev tasks. | ⭐ |
+| [🧠 TOC Helper](https://github.com/Khushdil380/theory-of-computation-notes) | Simple notes and visualizations for Theory of Computation — made for students, by a student. | ⭐ |
+| [🎨 Happy Heart Theme](https://github.com/Khushdil380/happy-heart-theme) | A custom VS Code theme with matching icon pack that reflects calm and creativity. | ⭐ |
+
+> 🗂️ You can find all my other projects [here](https://github.com/Khushdil380?tab=repositories).
+
+
 
 
 <h1>🛠️ Skills & Technologies</h1>
