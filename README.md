@@ -4,6 +4,9 @@
 </p>
 
 
+<!-- GitHub Stats, Contribution Graph or Animation -->
+<img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Khushdil380&theme=tokyonight" />
+    
 ## 🌟 My Top Picks
 
 Here are some of my favorite projects that I personally use, maintain, or feel proud of. Explore them to see what I've been working on!
@@ -26,62 +29,51 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
 <table>
   <tr>
-    <td>
-      HTML5 <img src="https://img.icons8.com/color/30/html-5.png"/> ★★★★★
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/C-badge.svg" width="220"/>
     </td>
-    <td>
-      CSS <img src="https://img.icons8.com/color/30/css3.png"/> ★★★★★
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/CPP-badge.svg" width="220"/>
     </td>
-    <td rowspan="6">
-      <!-- GitHub Stats, Contribution Graph or Animation -->
-      <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Khushdil380&theme=tokyonight" />
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/HTML-badge.svg" width="220"/>
     </td>
   </tr>
-  
   <tr>
-    <td>
-      JavaScript <img src="https://img.icons8.com/color/30/javascript.png"/> ★★★★★
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/CSS-badge.svg" width="220"/>
     </td>
-    <td>
-      React <img src="https://img.icons8.com/office/30/react.png"/> ★★★★☆
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/js-badge.svg" width="220"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/React-badge.svg" width="220"/>
     </td>
   </tr>
-  
   <tr>
-    <td>
-      Python <img src="https://img.icons8.com/color/30/python.png"/> ★★★★☆
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/SQL-badge.svg" width="220"/>
     </td>
-    <td>
-      Django <img src="https://img.icons8.com/color/30/django.png"/> ★★★★☆
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/Python-badge.svg" width="220"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/Git-badge.svg" width="220"/>
     </td>
   </tr>
-  
   <tr>
-    <td>
-      Node.js <img src="https://img.icons8.com/color/30/nodejs.png"/> ★★★★☆
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/Github-badge.svg" width="220"/>
     </td>
-    <td>
-      Express <img src="https://img.icons8.com/ios/30/express-js.png"/> ★★★☆☆
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/your-username/your-repo/main/badges/github.svg" width="220"/>
     </td>
-  </tr>
-  
-  <tr>
-    <td>
-      MongoDB <img src="https://img.icons8.com/color/30/mongodb.png"/> ★★★★☆
-    </td>
-    <td>
-      SQL <img src="https://img.icons8.com/ios-filled/30/database.png"/> ★★★★☆
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/your-username/your-repo/main/badges/docker.svg" width="220"/>
     </td>
   </tr>
-  
-  <tr>
-    <td>
-      Git <img src="https://img.icons8.com/color/30/git.png"/> ★★★★☆
-    </td>
-    <td>
-      GitHub <img src="https://img.icons8.com/material-rounded/30/github.png"/> ★★★★☆
-    </td>
-  </tr>
+</table>
+
   
 </table>
 
