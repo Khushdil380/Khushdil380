@@ -1,0 +1,70 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="60">
+  <defs>
+    <linearGradient id="boxGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#222"/>
+      <stop offset="100%" stop-color="#111"/>
+    </linearGradient>
+    <filter id="innerShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feOffset dx="0" dy="2" />
+      <feGaussianBlur stdDeviation="2" result="offset-blur"/>
+      <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/>
+      <feFlood flood-color="#000" flood-opacity="0.5" result="color"/>
+      <feComposite operator="in" in="color" in2="inverse" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <style>
+    .box {
+      fill: url(#boxGradient);
+      stroke: #2196f3;
+      stroke-width: 2.5;
+      rx: 15;
+      filter: url(#innerShadow) drop-shadow(0 0 12px #2196f3) drop-shadow(0 0 24px #2196f3);
+      animation: pulse 4s infinite cubic-bezier(0.4,0,0.2,1);
+    }
+    .icon-glow {
+      filter: drop-shadow(0 0 8px #2196f3) drop-shadow(0 0 16px #2196f3);
+      animation: iconPulse 4s infinite cubic-bezier(0.4,0,0.2,1);
+    }
+    .label, .score {
+      fill: white;
+      font-size: 14px;
+      font-family: 'Verdana';
+      dominant-baseline: middle;
+      text-anchor: middle;
+    }
+    .label { animation: fadeInLeft 2s ease-out; }
+    .score { animation: fadeInRight 2s ease-out; }
+
+    @keyframes pulse {
+      0%, 100% {
+        filter: url(#innerShadow) drop-shadow(0 0 12px #2196f3) drop-shadow(0 0 24px #2196f3);
+      }
+      50% {
+        filter: url(#innerShadow) drop-shadow(0 0 32px #2196f3) drop-shadow(0 0 48px #2196f3);
+      }
+    }
+    @keyframes iconPulse {
+      0%, 100% {
+        filter: drop-shadow(0 0 8px #2196f3) drop-shadow(0 0 16px #2196f3);
+      }
+      50% {
+        filter: drop-shadow(0 0 24px #2196f3) drop-shadow(0 0 32px #2196f3);
+      }
+    }
+    @keyframes fadeInLeft {
+      from { opacity: 0; transform: translateX(-10px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes fadeInRight {
+      from { opacity: 0; transform: translateX(10px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+  </style>
+
+  <rect x="0" y="0" width="260" height="60" rx="12" class="box"/>
+  <text x="45" y="30" class="label">CSS</text>
+  <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAABuwAAAbsBOuzj4gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAZPSURBVHic7Vrbb9NVHP+c82tXtu7mQMcYKxnEBC9BIQoEWFSi6f4BiC8+mRhJJBHjM77om77oA/rgCwlPGiIPJls0YAIYLvFGCEpAFtjGbLcO160tXdvz9aFljvZcvr2uTj4v3XpOz/l+P+d7OxdBRFiOzccSCwAFsSohErcOBduXfyM1vaINkmYlUKKbhgCKNEKSlUGpbqUECKxeAjS6PXKBki60ii1Ao9sjF9B0+3+7AK1iF9DpVmoB3ipOgxrdSgjIerRqXUCnmyguhQUgBo8tpAH4bYMNdgl0BURtJawQc2nC2By5umXGDrUHCHioo6+4FwG0BYgS0G8b7cgLPoQHdTG08fj2T4X3zmSsfURepxKWtBoQIxPEF52MNwyx+25ZTDoZltAdCOfSzjkbhliKsxh6nUw27LaAdPNYwEyK1a0cC5BOC4gvsiZtCGZZFqDXSU8AoxyeayoLYMhi0KkkCxTgdIEr04SPLmSX4uoDEWjZ/8XfFbcX/07bv/B5dI8PrQZpq3EB/ZAKEThS/MQ84fjVHGvmaiEAfDhkWitmEFR6C9C7gNdc+4GOFsAzLMhCBkhz1sGgk5YAJURTlcPda8zmGEvyYpFJJy0Bg1Nt09BUTSuF7oC5bZqVAUAFnUqgJeDMB8gCiHFGbgRse44YLwDGCjqVwFjMiyY6GOleY27jpECbLubQCkQAPG0buCuQXx0p8kHqwacnH/xd1CYL7QKQsug3ApBCLPvtv587+8ybLlYNAHNQNxLA2RC98YyHwztsHNYfnBrApouZWsbRWDTpnrzeYNUAFl3MBAj3jjCSWPlEwQqCFl1sJxpOF4gyc3A9wYwBj1zA1GQmQLpdYDZFyCr3/PVCMgOktNm9CBZdLFlARYXVQ/Kl4he/5dDuL+z+ytgJcnaBRECLB7z1nKedn2n+IKjy64BsqjviX7PgHPzTnzhLUDlCncJIAO8oLK+Lqc24xONHkAIwz5qhjlgftJTB91lDzBd00cJq45xiqN7otTzW4biASwdXGRcBsMXW4ZWQxMshPY+/RAjf3Kju0KS3reqNkDWYWwmQhAg5ToYGOgRe36r30XWtqmoCbC7AsQDpSOeuqx2nC9iEWGvZxXFhjQFVFkGAiwDG6bBtM9LTWv3dod0CGAM4dKg6CNosoMdylMVFvYOgq9JhWIBZiI4WwF/F/akngXUWK2KdBzp0sGcBQRE4zsfjaSCjzIoe3ePDD+MKF+8qLNgvcJfQ7gd2bZB4aUBCGqZP58Abz7GrdaVBVh0wkyL0GXz14FYPB7d6yCngyrTC+UnCj3cVfo0q5Ar7CE8Czz8hsWeDxN5+gW2PS3gOy+FWgS4drARQOhcRAfeJTywF9DleF3sS2N4rsb0XeGeHh0QGuDiVZ2BXn0TQ+hxDPycHlM5VHgTH3u3+G4DzGpS7KVmOoB/YH5LYHypf+TLmXCzoYIQ7RAm3G5RhjjUDa06G7G4CGJngj9nGngtkFXD9XvUZAHAHQRBRRAh7Jjh+NYevr+ewe4PEUL/Evo0Soc7aPqC6Eyecm1A4O6lw4a5CkpEBiNyHOk4CpJTR4pdkOiQzwOnbCqdv500h1CkwtDFPxu4+ibYy/TyZAS5MqbzSEwp34uW7mZTS6QLuEF/hy9E7ccKJazmcuJaDTwI7euUSIU+tFSXVBQH4PUZLCv8cUdW7VS1cAOR+K+BCVgGXphQuTSl8cjlf3e3tzxMCAGcnFM5PqoqyiRU1IUAiWut74pkU4dTNHE7drPMDC9mgLNC0YMjuJKAZjsUqBUd2twX4/8MWwJDdScBYV3AGwApef1QMVZDdCrcLHEAOAicBNMFFGBtJCJykA3BG2ZLn8iY8+RkCypcYIqgwIIYBPFutlDXGVYBGBOSozAbP3jgM1mtmNgHFGPg81d+CbJhIDAN4FcBjFQ1UOe4B+F4IGlmEb3T87dbJSgapmICHBvkK3qbZ+Z2eEsMEEQboRXACbHlQgLgsQKM5SSO3ezoucUzchZoQUIyBL+M9vrR8TUoxTERhAH0VDjUlhBhVikayAfXd+Juds7WUE6gTAcXYfCyxjUgNQ4iwAPYBaDF0XSTgHIhGhZAjtw4Fr9RbtoYQsBzrP44E29ra9kOIMAHDACCAERCNJpPJ03+935topDz/AI92t6XPQ7nmAAAAAElFTkSuQmCC" x="110" y="13" width="35" height="35" class="icon-glow"/>
+  <text x="210" y="30" class="score">7/10</text>
+</svg>
