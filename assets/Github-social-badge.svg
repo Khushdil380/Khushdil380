@@ -1,0 +1,74 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="60">
+  <defs>
+    <linearGradient id="boxGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E4405F">
+        <animate attributeName="stop-color" values="#E4405F;#FCAF45;#405DE6;#E4405F" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#405DE6">
+        <animate attributeName="stop-color" values="#405DE6;#E4405F;#FCAF45;#405DE6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="iconGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .box {
+      fill: url(#boxGradient);
+      rx: 16;
+      stroke: #E4405F;
+      stroke-width: 2;
+      filter: drop-shadow(0 0 12px #E4405F88);
+      animation: boxPulse 4s infinite alternate;
+    }
+    .divider {
+      stroke: #fff8;
+      stroke-width: 1.5;
+      opacity: 0.5;
+    }
+    .label {
+      fill: #fff;
+      font-size: 20px;
+      font-family: 'Segoe UI', Verdana, sans-serif;
+      font-weight: bold;
+      dominant-baseline: middle;
+      text-anchor: middle;
+      letter-spacing: 1px;
+      filter: drop-shadow(0 1px 2px #0008);
+      animation: textFade 2s infinite alternate;
+    }
+    .icon {
+      filter: url(#iconGlow) drop-shadow(0 0 10px #E4405F);
+      animation: iconGlow 2.5s infinite alternate;
+    }
+    @keyframes boxPulse {
+      0% { filter: drop-shadow(0 0 12px #E4405F88); }
+      100% { filter: drop-shadow(0 0 28px #E4405Fcc); }
+    }
+    @keyframes iconGlow {
+      0% { filter: url(#iconGlow) drop-shadow(0 0 10px #E4405F); }
+      100% { filter: url(#iconGlow) drop-shadow(0 0 22px #E4405F); }
+    }
+    @keyframes textFade {
+      0% { opacity: 1; }
+      100% { opacity: 0.85; }
+    }
+    a:hover .box {
+      filter: drop-shadow(0 0 32px #E4405F);
+    }
+    a:hover .icon {
+      filter: url(#iconGlow) drop-shadow(0 0 32px #E4405F);
+    }
+  </style>
+  <a href="https://github.com/Khushdil380" target="_blank">
+    <rect x="0" y="0" width="260" height="60" rx="16" class="box"/>
+    <line x1="170" y1="10" x2="170" y2="50" class="divider"/>
+    <text x="85" y="30" class="label">Github</text>
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAB2AAAAdgB+lymcgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAVJSURBVHic7Zt7aFZlHMc/O21lczdL22xSbW1zy0KTEiRrkjMJocAgwSLoQtKFFgh2g5IK7GZR7Z+yiNKEikTS7KJR2U0iBhaj6zCtbIllw62xdnn74/e+eXY8l+d3bu+B+sLvj5f3d/s+73me8zy/5/fCfxwlKcWZBDQDLXmpyUtF/vsB4E/gMPA98F1ehpNOLKkBOA64CFgELATmAWVKH38DnwMfAO8Bu4Dx2DJMCGcDjwG/ALmY5WfgUWBWamwUWABsRX6huIm7ycdARyrMAtAG7CQd0m7yLtCaOEsXnAg8gszTYpEvyDDwELLQpoJWYE+ChMJKD3BOgrwBuBoYLDJRPxkAViRFvpP0FrkoMg6siZN4CfBkBohp5Ym4BmBtBsiElQeikl+VARJRpTMs+YuB0QwQiCpjwGIvkl5ngXqgGzjFZ4BywA15HzOBS4DZPvpxIQfsRjZgvUAt8HCATR8wF/jVNMgOgkf2Mxe7OcCLwIiBvVaGgKeQU6UdFnDAwP4tU/IrDBN60MdHC/Cmi81PwCfANmBDnlAX8DKwHfgU+bWcdhuRp9ILmwxzvjKIfI1HAm6yPMgZsAy4F1gK1BnoFzADuBy4H7NDz12GOR8Aqvwc3WfoKAdcqiCUNG7FPO97vJxUAX8oHC1MgklIXIt53oeAyoKhZXOyEpiiCOr3hkgb0xS6JwM3Fj7YB+B6ZdAsVWbalPrHcJ2P/rW0K3y+seNb9PnPszt4Wmk8ihQ8s4Ll6AdgwmHpG6XxmmT5hMIz6Dj0FAzrlYYHsa2iGUId+mJNvQW0KwM9DhyJJ+dY0Qc8r7S50ALOUhptVuqniS1K/TYLXVl5L3JllVV8hNQFTdFmcezpyg+9unxSxwiwX6HfbAEnKQz6dPkUBZocp1gcvaE1wV/KZIqBQYVulXYAypXJFAOTFbqVFlIzM0W1MplioEahO2qhe6xPVyZTDDQodActoF9h0IS+0SFN1KI70vdb6F4b5aRT+Q2LC5T6+yzgR6XRUqV+mtCW6fZZwFdKo6uYWEjJCsqRIqwGX4LU9rRn6SviyDhmdKLnsQBkHzCsNOwlW3uCWqTYqeEwhHS6AGY3QU55IXFaZigF3kaf/3a7kzCPTw7pzUmr2dINpcBLLnmZyC12R3WEb3jajO7WJy40Au+HyDeHTPmpTodbQjrLIfNvJbY5lSCqgTuI1qv0qpvjRR7KG5HLhEbgJqQo4uX4d2AdsroeHyPpCmAJsB4peIQlXhDPDdNuF+WDDoPJwOsGQQaQHt8uZOBKFYQrgdXAc8g1fJzX7R/6BV7iYTQK3GnTK0PXIXq7gnwB62IkbZf2oMBbfYxvs+lNB34zCNhDuJ1jBeZX9ZHmvhNNeM+zEeBcm+5igt8eq9TUj6JLQS5I+oHTTAPf7ONom0O3He8WlTHgPA1jB5b55KGV6zSBS4A3fJzNd+hPAq4BnkUes/XIwjddE9QF5/vkEPuj70Q18LWHw3dIZwfY6BFfI3vQ1QknoBnvhWh1WKcKnOER21T2E0MZbzberTNrSbZPv8Ejron0If2LsWAO0mToFugH4G7kiu0Em00Z0rkRpXhypkfMINlLjOTtyZh0YhxGzgZj+c9RnpAmg3hO6QZOjRDTF5XAa8qEohROWpSxNkSMZ4QS5Cx9xDApzc2TEzMNYxxC/s2SKhpwb4d1im9nZgBaA3yPI6fVYtQj/kUH8AXeSWquqpxo8/G7A9koZQYdSEd2YfHLIdMkyk3SNCYehYeQxuq5kTK1IYnd3Azk7qARWTB3RvR3GXIZ0w28gvzJ+n/EhX8AXiVFMFuUCq4AAAAASUVORK5CYII=" x="197" y="12" width="36" height="36" class="icon"/>
+  </a>
+</svg>
