@@ -4,6 +4,7 @@
 </p>
 
 
+[![LinkedIn Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//LinkedIn-social-badge.svg)](https://www.linkedin.com/in/khushdil-ansari/)
 <!-- GitHub Stats, Contribution Graph or Animation -->
 <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Khushdil380&theme=tokyonight" />
     
