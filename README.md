@@ -4,7 +4,7 @@
 </p>
 
 
-[![LinkedIn Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//LinkedIn-social-badge.svg)](https://www.linkedin.com/in/khushdil-ansari/)
+git push origin mainVv
 <!-- GitHub Stats, Contribution Graph or Animation -->
 <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Khushdil380&theme=tokyonight" />
     
@@ -98,7 +98,7 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/InstagramLinks) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/LinkedINUserName) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@MedimUserName) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/PinterestUserName) [![Quora](https://img.shields.io/badge/Quora-%23B92B27.svg?logo=Quora&logoColor=white)](https://quora.com/profile/QuoraUserName) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/RedditUserName) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/XUserName) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@YouTubeChannelID) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:EmailID) 
+[![LinkedIn Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//LinkedIn-social-badge.svg)](https://www.linkedin.com/in/khushdil-ansari/) [![email](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Email-social-badge.svg)](mailto:khushdilansari345@gmail.com)  [![Whatsapp Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Whatsapp-social-badge.svg)](https://wa.link/m74qd4) [ ![Medium](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Medium-social-badge.svg)](https://medium.com/@khushdilansari345) [![Github Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Github-social-badge.svg)](https://github.com/Khushdil380)  [![Reddit](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Reddit-social-badge.svg)](https://reddit.com/user/RedditUserName) [![X](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//X-social-badge.svg)](https://x.com/XUserName) [![YouTube](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//YouTube-social-badge.svg)](https://youtube.com/@YouTubeChannelID) 
 
 
 
