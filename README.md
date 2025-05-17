@@ -4,8 +4,19 @@
 </p>
 
 
-git push origin mainVv
-<!-- GitHub Stats, Contribution Graph or Animation -->
+<h1>🏆 LeetCode</h1>
+
+<p align="center">
+ 
+  [![LeetCode Total](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/total_solved.svg)](https://www.linkedin.com/in/khushdil-ansari/)
+  [![LeetCode easy](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/easy.svg)](https://www.linkedin.com/in/khushdil-ansari/)
+  [![LeetCode medium](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/medium.svg)](https://www.linkedin.com/in/khushdil-ansari/)
+  [![LeetCode hard](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/hard.svg)](https://www.linkedin.com/in/khushdil-ansari/)
+  [![LeetCode recent](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/hard.svg)](https://www.linkedin.com/in/khushdil-ansari/)
+  
+</p>
+
+
 <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Khushdil380&theme=tokyonight" />
     
 ## 🌟 My Top Picks
