@@ -24,8 +24,7 @@
 
 <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Khushdil380&theme=tokyonight" />
     
-## 🌟 My Top Picks
-
+<h1>🌟 My Top Picks</h1>
 Here are some of my favorite projects that I personally use, maintain, or feel proud of. Explore them to see what I've been working on!
 
 ### 🚀 Featured Projects
