@@ -97,7 +97,7 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 <img src="https://raw.githubusercontent.com/Khushdil380/github-garden/main/garden.svg" width="100%"/>
 
 
-## 🚀 Projects
+<h1> 🚀 Projects </h1>
 
 | Project | Details |
 |--------|---------|
@@ -112,12 +112,11 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
 
 
-## 🌐 Socials:
+<h1> 🌐 Socials:</h1>
 [![LinkedIn Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//LinkedIn-social-badge.svg)](https://www.linkedin.com/in/khushdil-ansari/) [![email](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Email-social-badge.svg)](mailto:khushdilansari345@gmail.com)  [![Whatsapp Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Whatsapp-social-badge.svg)](https://wa.link/m74qd4) [ ![Medium](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Medium-social-badge.svg)](https://medium.com/@khushdilansari345) [![Github Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Github-social-badge.svg)](https://github.com/Khushdil380)  [![Reddit](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Reddit-social-badge.svg)](https://reddit.com/user/RedditUserName) [![X](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//X-social-badge.svg)](https://x.com/XUserName) [![YouTube](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//YouTube-social-badge.svg)](https://youtube.com/@YouTubeChannelID) 
 
 
-
-# 📊 GitHub Stats:
+<h1> 📊 GitHub Stats:</h1>
 ![](https://github-readme-stats.vercel.app/api?username=Khushdil380&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Khushdil380&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Khushdil380&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
