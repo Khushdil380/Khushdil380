@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="80" 
+     viewBox="0 0 300 80">
+  
+  
+    <defs>
+      <!-- Icon breathing glow filter -->
+      <filter id="icon-breathing-glow-HTML" x="-100%" y="-100%" width="300%" height="300%">
+        <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+        <feMorphology operator="dilate" radius="2" result="thickened"/>
+        <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+        <feFlood flood-color="#E34F26" result="glowColor"/>
+        <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+        <feMerge>
+          <feMergeNode in="coloredGlow"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+        <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+      </filter>
+      
+      <!-- Border breathing glow filter -->
+      <filter id="border-glow-HTML" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+        <feFlood flood-color="#E34F26" flood-opacity="0.6" result="borderColor"/>
+        <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+        <feMerge>
+          <feMergeNode in="borderGlow"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+      
+      <!-- Text glow filter -->
+      <filter id="text-glow-HTML" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2" result="textBlur"/>
+        <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+        <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+        <feMerge>
+          <feMergeNode in="glowedText"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+  
+  <!-- Animated Background with breathing border -->
+  <rect x="0" y="0" width="300" height="80" 
+        rx="12" ry="12"
+        fill="#0D1117" 
+        stroke="#E34F26" 
+        stroke-width="2"
+        stroke-opacity="0.3"
+        filter="url(#border-glow-HTML)">
+    
+    <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2;4;2" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Skill Name (Left) -->
+  <text x="20" y="45" 
+        style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+               fill: #F0F6FC;"
+        filter="url(#text-glow-HTML)">
+    HTML
+  </text>
+  
+  <!-- Skill Icon (Center) with breathing glow -->
+  <g transform="translate(150, 40)">
+    <image x="-20" y="-20" width="40" height="40" 
+           href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAIKAAACCgElChgPAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAcVQTFRF/////wAA/4AA/1UA/0AA/0kA/0AA/0YA/0AV/0kS/0QR/1AQ/0sP/00N/0YM/0UK/0wJ/0kJ/00J/0oI/0gI/0kP/0wO/0oN/0YN+UsM+kcL+kcK+ksK+koJ+kkJ+0gJ+0gN+0oM+0gM+0gL+0cL+0gL/EcK/EoK/EkK/EgK/EoK/EkK/EgJ/EkM/EkM/EgL/EkL/EgL/EgL/EgL/EoL/EgK/EoK/EkK/UkK/UoK/UkM/UoM/UkM/UoL/UgL/UoL/UkL/UkL/UgL/UkL/UkL/UgL/UkK/UgK+0kM+0oM+0gL+0oL+0kL+0kL+0oL+0kL+0kL+0oL/EkK/EoK/EkK/EkM/EkM/EoL/EkL/EkL/EkL/EoL/EkL/EgL/EoL/EkK/EkK/EkM/EkM/EgM/EkM/EkL/EoL/EkL/EkL/EkL/EkL/EoL/EkL/EoL/EkK/EkK/EgK/EkM/EkM/EkL/EoL/EkL/UkL/UkL/UkL/UkL+0kL+0kL+0kL+0kL/EkK/EkK/EoL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkK/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkLHl5AmAAAAJZ0Uk5TAAECAwQHCAsMDg8QERQWGhscHh8gIyUmKCwvMjM3ODk8PkBDREdLTE1OT1BRVFdZW1xfYGFjZGVmaGlrbG9xcnN0dXZ3eH1/gYOGh4iJiouMkZOVlpeanJ2eoKanqaqrrK6vsLGytLW2uLq7v8LDxMXGx8jJys3Oz9PV2Nna29ze3+Dh4+Xn6ezt7u/x8vP09/n6/P3+8kMBuwAAArVJREFUGBmdwYlfTFEYBuC31IQkS1JUyjKyE0LJEmXNkiWjlCXKMkLIEkliiKjG+/f6OfN93XtuNae5z4P/ql4yhJdVUHGGEocaYyhjUEMMZQiqn6H0Qz1gKA+gbjKUm1CXGMolqCaG0gRVy1BqobYxlG1QlVR9D536qCqhSqjK4VROVQJVQBWFU5SqACo7SVEDpxqKZDamJSiOwukoRQKe9xRn4XSW4j08fRTX4XSdog+eexR3kBI9NKfXFPfgaaOII6Wdbm3wnKN4h5SLdDsHzzGKb0hpoNsxeGooprJg7KBbDTxRqiUwKugWhaecqhjGcrqVw7OKqgJGTpJOq+BZTLUZKSuK5nCQajF8Jin2wmE/xST8vlIch8MJiq/we0txHg4XKN7C7wlFGxxiFE/g10VxFw7dFF3wu0bxFA7PKK7B7wzFxOc5fMqCMUhxBn4NdPmBlO8UDfDbTZchGNlJit3w20TVeMg4zIBXMAqoNsGvjKoYRoQBD2GUUJXBbyXVOhgRBrTDqKRaCb88qmoYEQa0wthKlQfLH4p9MCIMOA1jP8Uf2L5QNMLInaKtHsZJii+wvaFoQUr+9qsfKX51H16NlAsUb2B7THEDnqLaW4mpF6crczAtRvEYtg6KbliyF8Jyn6IDtlaKZ0jrOUUrbKcoBpHWIMUp2Oopfq5FGmt/UtTDtpPTRi6vX4BZLFh/eYTTdsK2gX6J2JYILJEtsQT9NsC2hgG/b+/Jh8jfc/s3A9bAtowzTT6qKwQK6x5NcqZlsOVyVn/7+/9yVrkIGGdGxhE0zIwMI6iHGelBUNkwMzBchhlyNl4Z5byMXtmYg1llVbR8oMOHloospFPaPMA5DTSXYh6KjsSTnCEZP1KEeVt6oHeCPhO9B5YiQ4t2dY7TGO/ctQihRKpjIyOx6gjS+AcYKB9RazRjUgAAAABJRU5ErkJggg=="
+           filter="url(#icon-breathing-glow-HTML)">
+      
+    <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+    </image>
+  </g>
+  
+  <!-- Rating Text (Right) -->
+  <text x="280" y="32" text-anchor="end"
+        style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+               fill: #7C3AED;">
+    9/10
+  </text>
+  
+  <!-- Star Rating (Right, below rating) -->
+  <text x="280" y="52" text-anchor="end"
+        style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+               fill: #E34F26;">
+    ★★★★★
+  </text>
+  
+  <!-- Animated color accent bar (Left edge) -->
+  <rect x="0" y="0" width="4" height="80" 
+        rx="2" ry="2" fill="#E34F26" opacity="0.5">
+    
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="4;6;4" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  
+</svg>

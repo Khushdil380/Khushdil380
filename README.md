@@ -4,6 +4,61 @@
 </p>
 
 
+
+
+
+<h1>🛠️ Skills & Technologies</h1>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/html-badge.svg" alt="HTML" width="300"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/css-badge.svg" alt="CSS" width="300"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/javascript-badge.svg" alt="JavaScript" width="300"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/react-badge.svg" alt="React" width="300"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/python-badge.svg" alt="Python" width="300"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/node-js-badge.svg" alt="Node.js" width="300"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/c-badge.svg" alt="C" width="300"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/c---badge.svg" alt="C++" width="300"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/sql-badge.svg" alt="SQL" width="300"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/git-badge.svg" alt="Git" width="300"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/github-badge.svg" alt="GitHub" width="300"/>
+    </td>
+    <td align="center">
+      <!-- Empty cell for symmetry -->
+    </td>
+  </tr>
+</table>
+
+
+
+
 <h1>🏆 LeetCode</h1>
 <p align="center">
   
@@ -40,55 +95,6 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
 
 
-
-<h1>🛠️ Skills & Technologies</h1>
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/C-badge.svg" width="220"/>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/CPP-badge.svg" width="220"/>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/HTML-badge.svg" width="220"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/CSS-badge.svg" width="220"/>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/js-badge.svg" width="220"/>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/React-badge.svg" width="220"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/SQL-badge.svg" width="220"/>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/Python-badge.svg" width="220"/>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/Git-badge.svg" width="220"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/Github-badge.svg" width="220"/>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/your-username/your-repo/main/badges/github.svg" width="220"/>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/your-username/your-repo/main/badges/docker.svg" width="220"/>
-    </td>
-  </tr>
-</table>
 
   
 </table>

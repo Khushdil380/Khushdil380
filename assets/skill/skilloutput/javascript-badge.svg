@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="80" 
+     viewBox="0 0 300 80">
+  
+  
+    <defs>
+      <!-- Icon breathing glow filter -->
+      <filter id="icon-breathing-glow-JavaScript" x="-100%" y="-100%" width="300%" height="300%">
+        <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+        <feMorphology operator="dilate" radius="2" result="thickened"/>
+        <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+        <feFlood flood-color="#F7DF1E" result="glowColor"/>
+        <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+        <feMerge>
+          <feMergeNode in="coloredGlow"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+        <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+      </filter>
+      
+      <!-- Border breathing glow filter -->
+      <filter id="border-glow-JavaScript" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+        <feFlood flood-color="#F7DF1E" flood-opacity="0.6" result="borderColor"/>
+        <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+        <feMerge>
+          <feMergeNode in="borderGlow"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+      
+      <!-- Text glow filter -->
+      <filter id="text-glow-JavaScript" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2" result="textBlur"/>
+        <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+        <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+        <feMerge>
+          <feMergeNode in="glowedText"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+  
+  <!-- Animated Background with breathing border -->
+  <rect x="0" y="0" width="300" height="80" 
+        rx="12" ry="12"
+        fill="#0D1117" 
+        stroke="#F7DF1E" 
+        stroke-width="2"
+        stroke-opacity="0.3"
+        filter="url(#border-glow-JavaScript)">
+    
+    <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2;4;2" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Skill Name (Left) -->
+  <text x="20" y="45" 
+        style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+               fill: #F0F6FC;"
+        filter="url(#text-glow-JavaScript)">
+    JavaScript
+  </text>
+  
+  <!-- Skill Icon (Center) with breathing glow -->
+  <g transform="translate(150, 40)">
+    <image x="-20" y="-20" width="40" height="40" 
+           href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAB2AAAAdgB+lymcgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAASLSURBVHic7Zl9TJVVHMc/1wyVF8lhiIJBLSJZXvsjy8owsYKwWpDilkbDuZovZc7VqOQauGy5BDWz4WAuREtboZGxcCjTas5qZS0sRRBLM4vxKm8XvP1xducunOc+l8uV81x5vv89v/M7z/mez73PebU46nAwjDVCtQHVMgGoNqBaJgDVBlTLBKDagGqZAFQbUC0TgGoDqmUCUG1AtUwAqg2olglAtQHVMgGoNqBaJgDVBlTLBKDagGqZAFQbUC0TgGoDqjXsAYwc6gb/vgRvbeofDw+Ddav16/91EUpKoeoYnKmHhiYIDoTICIiJgpTZkD4XRgV45scy1LfDJ2sg/tH+8dgYOHVYu15nF2S9Cx+WQLfdfRuTJsDWHEhN0vfjF59ASxskpMPmHfqdB7jwDzyzFDYU6Of6BYBnV8L3vwysjsMh/jGflLnPMzyArw7DgUPe1XU4YFk2NDRq5wz5IDhQFe6Rx8eMhhUZcI8VLrdD6ddQVumaEx4G+dkQNk77/YYHUPmtPF5aAEkJV58z54sx4pVc8ZyRBnlr3HceDA6g9bIYAPsq4mbXzju1MhPqz0PyLHjsIc/aMDSAK1fk8fYO8X1bLP3L8tYMrA1DD4Jjg+ULmpY22PGpb9owNACLBaZb5WUvvgFvvgdt7YNrw9AAAOalyOM9vbD+A4iZCWvz4eK/3r3f8ACWLBDrfC01NELuFoh+EJZkQd2fA3u/4QEEBcLuzfqbm247FO2BuERY/JrnIAwPACDhXviiEEJD9HPtPWKAvCsJthbr5/sFABDz+olymJvoWX57B7y0FpbbxJSpJb8BABAdCV8WwbFSeMJDENt2ut8V+hUAp+67G8qK4Ph+WPg03KiznLPlwbkL8jK/BODUdCuU5EPtUbEM1gLRbRcHKTL5NQCnoiJgkw1+KIMJ4+U5B7+Rx68LAE5Z74SPNsrLas7K49cEwKHvtMv+0zicCA7SrvNHLaRkwu79+m0/PEMeb2mTb658CuBUHSRlwJyFsPeAPEfrlxgv2bc3t8Lqt2FqEpRXidOdEyfde9BaAIWGwAhJb30CoKMTsjeCNRkqjorYC6/Dz9WuefYe2P6x/B1xt7k+F38Od8yGvEJRDwSQWQvgs3L53N7UAs9rHK3fOlkeH/R5QFc3THscTp91jTe3woxUWJQK06aINfu+Cu1fMPEB1+fac3CpoX9ecyvMWwZT4yAtWdwFtLXD72dg1z4BQaYn58jjPrkXWG4TCw5vFRkBNVUwetTVWGcXzJwPP/46WHcQOAaqD4qFVF/55BPYkAXxsd7Xz13l2nkQz6UFcHv04LwBrH9V3nnwEYCgQKgo9g7CigxYnC4vmzwRjuzVHtn1ZLGA7WWxSNKSz2aByAixRl+6CEbeoJ8fGgLb1sH7Oe7zJoZD5S7Y/g7cMslzP/GxULETcla5z7smd4P158WAdOQ4VJ+GxmYICICwm8A6BRLvh+fSIMTN3C9Tb6+4FC2rhJ9+EwNlUws4gHFjITpK7BOeekRsoWWHpn015JejRtN1tRT2RiYA1QZUa9gD+B+ejy7SkCazDAAAAABJRU5ErkJggg=="
+           filter="url(#icon-breathing-glow-JavaScript)">
+      
+    <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+    </image>
+  </g>
+  
+  <!-- Rating Text (Right) -->
+  <text x="280" y="32" text-anchor="end"
+        style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+               fill: #7C3AED;">
+    8/10
+  </text>
+  
+  <!-- Star Rating (Right, below rating) -->
+  <text x="280" y="52" text-anchor="end"
+        style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+               fill: #F7DF1E;">
+    ★★★★★
+  </text>
+  
+  <!-- Animated color accent bar (Left edge) -->
+  <rect x="0" y="0" width="4" height="80" 
+        rx="2" ry="2" fill="#F7DF1E" opacity="0.5">
+    
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="4;6;4" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  
+</svg>

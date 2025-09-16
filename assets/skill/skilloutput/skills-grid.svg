@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="380" 
+     viewBox="0 0 940 380">
+  
+  <defs>
+    
+        <!-- Icon breathing glow filter for HTML -->
+        <filter id="icon-breathing-glow-HTML" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+          <feMorphology operator="dilate" radius="2" result="thickened"/>
+          <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+          <feFlood flood-color="#E34F26" result="glowColor"/>
+          <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+          <feMerge>
+            <feMergeNode in="coloredGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+          <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+        </filter>
+        
+        <!-- Border breathing glow filter for HTML -->
+        <filter id="border-glow-HTML" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+          <feFlood flood-color="#E34F26" flood-opacity="0.6" result="borderColor"/>
+          <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+          <feMerge>
+            <feMergeNode in="borderGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        
+        <!-- Text glow filter for HTML -->
+        <filter id="text-glow-HTML" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="textBlur"/>
+          <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+          <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+          <feMerge>
+            <feMergeNode in="glowedText"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <!-- Icon breathing glow filter for CSS -->
+        <filter id="icon-breathing-glow-CSS" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+          <feMorphology operator="dilate" radius="2" result="thickened"/>
+          <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+          <feFlood flood-color="#1572B6" result="glowColor"/>
+          <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+          <feMerge>
+            <feMergeNode in="coloredGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+          <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+        </filter>
+        
+        <!-- Border breathing glow filter for CSS -->
+        <filter id="border-glow-CSS" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+          <feFlood flood-color="#1572B6" flood-opacity="0.6" result="borderColor"/>
+          <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+          <feMerge>
+            <feMergeNode in="borderGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        
+        <!-- Text glow filter for CSS -->
+        <filter id="text-glow-CSS" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="textBlur"/>
+          <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+          <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+          <feMerge>
+            <feMergeNode in="glowedText"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <!-- Icon breathing glow filter for JavaScript -->
+        <filter id="icon-breathing-glow-JavaScript" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+          <feMorphology operator="dilate" radius="2" result="thickened"/>
+          <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+          <feFlood flood-color="#F7DF1E" result="glowColor"/>
+          <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+          <feMerge>
+            <feMergeNode in="coloredGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+          <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+        </filter>
+        
+        <!-- Border breathing glow filter for JavaScript -->
+        <filter id="border-glow-JavaScript" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+          <feFlood flood-color="#F7DF1E" flood-opacity="0.6" result="borderColor"/>
+          <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+          <feMerge>
+            <feMergeNode in="borderGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        
+        <!-- Text glow filter for JavaScript -->
+        <filter id="text-glow-JavaScript" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="textBlur"/>
+          <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+          <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+          <feMerge>
+            <feMergeNode in="glowedText"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <!-- Icon breathing glow filter for React -->
+        <filter id="icon-breathing-glow-React" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+          <feMorphology operator="dilate" radius="2" result="thickened"/>
+          <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+          <feFlood flood-color="#61DAFB" result="glowColor"/>
+          <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+          <feMerge>
+            <feMergeNode in="coloredGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+          <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+        </filter>
+        
+        <!-- Border breathing glow filter for React -->
+        <filter id="border-glow-React" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+          <feFlood flood-color="#61DAFB" flood-opacity="0.6" result="borderColor"/>
+          <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+          <feMerge>
+            <feMergeNode in="borderGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        
+        <!-- Text glow filter for React -->
+        <filter id="text-glow-React" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="textBlur"/>
+          <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+          <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+          <feMerge>
+            <feMergeNode in="glowedText"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <!-- Icon breathing glow filter for Python -->
+        <filter id="icon-breathing-glow-Python" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+          <feMorphology operator="dilate" radius="2" result="thickened"/>
+          <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+          <feFlood flood-color="#3776AB" result="glowColor"/>
+          <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+          <feMerge>
+            <feMergeNode in="coloredGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+          <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+        </filter>
+        
+        <!-- Border breathing glow filter for Python -->
+        <filter id="border-glow-Python" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+          <feFlood flood-color="#3776AB" flood-opacity="0.6" result="borderColor"/>
+          <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+          <feMerge>
+            <feMergeNode in="borderGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        
+        <!-- Text glow filter for Python -->
+        <filter id="text-glow-Python" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="textBlur"/>
+          <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+          <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+          <feMerge>
+            <feMergeNode in="glowedText"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <!-- Icon breathing glow filter for Node.js -->
+        <filter id="icon-breathing-glow-Nodejs" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+          <feMorphology operator="dilate" radius="2" result="thickened"/>
+          <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+          <feFlood flood-color="#339933" result="glowColor"/>
+          <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+          <feMerge>
+            <feMergeNode in="coloredGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+          <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+        </filter>
+        
+        <!-- Border breathing glow filter for Node.js -->
+        <filter id="border-glow-Nodejs" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+          <feFlood flood-color="#339933" flood-opacity="0.6" result="borderColor"/>
+          <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+          <feMerge>
+            <feMergeNode in="borderGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        
+        <!-- Text glow filter for Node.js -->
+        <filter id="text-glow-Nodejs" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="textBlur"/>
+          <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+          <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+          <feMerge>
+            <feMergeNode in="glowedText"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <!-- Icon breathing glow filter for C -->
+        <filter id="icon-breathing-glow-C" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+          <feMorphology operator="dilate" radius="2" result="thickened"/>
+          <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+          <feFlood flood-color="#A8B9CC" result="glowColor"/>
+          <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+          <feMerge>
+            <feMergeNode in="coloredGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+          <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+        </filter>
+        
+        <!-- Border breathing glow filter for C -->
+        <filter id="border-glow-C" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+          <feFlood flood-color="#A8B9CC" flood-opacity="0.6" result="borderColor"/>
+          <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+          <feMerge>
+            <feMergeNode in="borderGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        
+        <!-- Text glow filter for C -->
+        <filter id="text-glow-C" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="textBlur"/>
+          <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+          <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+          <feMerge>
+            <feMergeNode in="glowedText"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <!-- Icon breathing glow filter for C++ -->
+        <filter id="icon-breathing-glow-C" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+          <feMorphology operator="dilate" radius="2" result="thickened"/>
+          <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+          <feFlood flood-color="#00599C" result="glowColor"/>
+          <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+          <feMerge>
+            <feMergeNode in="coloredGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+          <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+        </filter>
+        
+        <!-- Border breathing glow filter for C++ -->
+        <filter id="border-glow-C" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+          <feFlood flood-color="#00599C" flood-opacity="0.6" result="borderColor"/>
+          <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+          <feMerge>
+            <feMergeNode in="borderGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        
+        <!-- Text glow filter for C++ -->
+        <filter id="text-glow-C" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="textBlur"/>
+          <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+          <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+          <feMerge>
+            <feMergeNode in="glowedText"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <!-- Icon breathing glow filter for SQL -->
+        <filter id="icon-breathing-glow-SQL" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+          <feMorphology operator="dilate" radius="2" result="thickened"/>
+          <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+          <feFlood flood-color="#4479A1" result="glowColor"/>
+          <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+          <feMerge>
+            <feMergeNode in="coloredGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+          <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+        </filter>
+        
+        <!-- Border breathing glow filter for SQL -->
+        <filter id="border-glow-SQL" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+          <feFlood flood-color="#4479A1" flood-opacity="0.6" result="borderColor"/>
+          <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+          <feMerge>
+            <feMergeNode in="borderGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        
+        <!-- Text glow filter for SQL -->
+        <filter id="text-glow-SQL" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="textBlur"/>
+          <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+          <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+          <feMerge>
+            <feMergeNode in="glowedText"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <!-- Icon breathing glow filter for Git -->
+        <filter id="icon-breathing-glow-Git" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+          <feMorphology operator="dilate" radius="2" result="thickened"/>
+          <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+          <feFlood flood-color="#F05032" result="glowColor"/>
+          <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+          <feMerge>
+            <feMergeNode in="coloredGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+          <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+        </filter>
+        
+        <!-- Border breathing glow filter for Git -->
+        <filter id="border-glow-Git" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+          <feFlood flood-color="#F05032" flood-opacity="0.6" result="borderColor"/>
+          <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+          <feMerge>
+            <feMergeNode in="borderGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        
+        <!-- Text glow filter for Git -->
+        <filter id="text-glow-Git" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="textBlur"/>
+          <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+          <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+          <feMerge>
+            <feMergeNode in="glowedText"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <!-- Icon breathing glow filter for GitHub -->
+        <filter id="icon-breathing-glow-GitHub" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+          <feMorphology operator="dilate" radius="2" result="thickened"/>
+          <feGaussianBlur stdDeviation="15" in="thickened" result="bigBlur"/>
+          <feFlood flood-color="#ffffff" result="glowColor"/>
+          <feComposite in="glowColor" in2="bigBlur" operator="in" result="coloredGlow"/>
+          <feMerge>
+            <feMergeNode in="coloredGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+          <animate attributeName="stdDeviation" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+        </filter>
+        
+        <!-- Border breathing glow filter for GitHub -->
+        <filter id="border-glow-GitHub" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="borderBlur"/>
+          <feFlood flood-color="#181717" flood-opacity="0.6" result="borderColor"/>
+          <feComposite in="borderColor" in2="borderBlur" operator="in" result="borderGlow"/>
+          <feMerge>
+            <feMergeNode in="borderGlow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        
+        <!-- Text glow filter for GitHub -->
+        <filter id="text-glow-GitHub" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="textBlur"/>
+          <feFlood flood-color="#F0F6FC" flood-opacity="0.8" result="textGlow"/>
+          <feComposite in="textGlow" in2="textBlur" operator="in" result="glowedText"/>
+          <feMerge>
+            <feMergeNode in="glowedText"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+  </defs>
+  
+  
+        <g transform="translate(0, 0)">
+          <!-- Animated Background with breathing border -->
+          <rect x="0" y="0" width="300" height="80" 
+                rx="12" ry="12"
+                fill="#0D1117" 
+                stroke="#E34F26" 
+                stroke-width="2"
+                stroke-opacity="0.3"
+                filter="url(#border-glow-HTML)">
+            
+            <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-width" values="2;4;2" dur="4s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Animated color accent bar -->
+          <rect x="0" y="0" width="4" height="80" 
+                rx="2" ry="2" fill="#E34F26" opacity="0.5">
+            
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="4;6;4" dur="2.5s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Skill Name (Left) -->
+          <text x="20" y="45" 
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+                       fill: #F0F6FC;"
+                filter="url(#text-glow-HTML)">
+            HTML
+          </text>
+          
+          <!-- Skill Icon (Center) with breathing glow -->
+          <g transform="translate(150, 40)">
+            <image x="-20" y="-20" 
+                   width="40" height="40" 
+                   href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAIKAAACCgElChgPAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAcVQTFRF/////wAA/4AA/1UA/0AA/0kA/0AA/0YA/0AV/0kS/0QR/1AQ/0sP/00N/0YM/0UK/0wJ/0kJ/00J/0oI/0gI/0kP/0wO/0oN/0YN+UsM+kcL+kcK+ksK+koJ+kkJ+0gJ+0gN+0oM+0gM+0gL+0cL+0gL/EcK/EoK/EkK/EgK/EoK/EkK/EgJ/EkM/EkM/EgL/EkL/EgL/EgL/EgL/EoL/EgK/EoK/EkK/UkK/UoK/UkM/UoM/UkM/UoL/UgL/UoL/UkL/UkL/UgL/UkL/UkL/UgL/UkK/UgK+0kM+0oM+0gL+0oL+0kL+0kL+0oL+0kL+0kL+0oL/EkK/EoK/EkK/EkM/EkM/EoL/EkL/EkL/EkL/EoL/EkL/EgL/EoL/EkK/EkK/EkM/EkM/EgM/EkM/EkL/EoL/EkL/EkL/EkL/EkL/EoL/EkL/EoL/EkK/EkK/EgK/EkM/EkM/EkL/EoL/EkL/UkL/UkL/UkL/UkL+0kL+0kL+0kL+0kL/EkK/EkK/EoL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkK/EkL/EkL/EkL/EkL/EkL/EkL/EkL/EkLHl5AmAAAAJZ0Uk5TAAECAwQHCAsMDg8QERQWGhscHh8gIyUmKCwvMjM3ODk8PkBDREdLTE1OT1BRVFdZW1xfYGFjZGVmaGlrbG9xcnN0dXZ3eH1/gYOGh4iJiouMkZOVlpeanJ2eoKanqaqrrK6vsLGytLW2uLq7v8LDxMXGx8jJys3Oz9PV2Nna29ze3+Dh4+Xn6ezt7u/x8vP09/n6/P3+8kMBuwAAArVJREFUGBmdwYlfTFEYBuC31IQkS1JUyjKyE0LJEmXNkiWjlCXKMkLIEkliiKjG+/f6OfN93XtuNae5z4P/ql4yhJdVUHGGEocaYyhjUEMMZQiqn6H0Qz1gKA+gbjKUm1CXGMolqCaG0gRVy1BqobYxlG1QlVR9D536qCqhSqjK4VROVQJVQBWFU5SqACo7SVEDpxqKZDamJSiOwukoRQKe9xRn4XSW4j08fRTX4XSdog+eexR3kBI9NKfXFPfgaaOII6Wdbm3wnKN4h5SLdDsHzzGKb0hpoNsxeGooprJg7KBbDTxRqiUwKugWhaecqhjGcrqVw7OKqgJGTpJOq+BZTLUZKSuK5nCQajF8Jin2wmE/xST8vlIch8MJiq/we0txHg4XKN7C7wlFGxxiFE/g10VxFw7dFF3wu0bxFA7PKK7B7wzFxOc5fMqCMUhxBn4NdPmBlO8UDfDbTZchGNlJit3w20TVeMg4zIBXMAqoNsGvjKoYRoQBD2GUUJXBbyXVOhgRBrTDqKRaCb88qmoYEQa0wthKlQfLH4p9MCIMOA1jP8Uf2L5QNMLInaKtHsZJii+wvaFoQUr+9qsfKX51H16NlAsUb2B7THEDnqLaW4mpF6crczAtRvEYtg6KbliyF8Jyn6IDtlaKZ0jrOUUrbKcoBpHWIMUp2Oopfq5FGmt/UtTDtpPTRi6vX4BZLFh/eYTTdsK2gX6J2JYILJEtsQT9NsC2hgG/b+/Jh8jfc/s3A9bAtowzTT6qKwQK6x5NcqZlsOVyVn/7+/9yVrkIGGdGxhE0zIwMI6iHGelBUNkwMzBchhlyNl4Z5byMXtmYg1llVbR8oMOHloospFPaPMA5DTSXYh6KjsSTnCEZP1KEeVt6oHeCPhO9B5YiQ4t2dY7TGO/ctQihRKpjIyOx6gjS+AcYKB9RazRjUgAAAABJRU5ErkJggg=="
+                   filter="url(#icon-breathing-glow-HTML)">
+              
+              <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+            </image>
+          </g>
+          
+          <!-- Rating Text (Right) -->
+          <text x="280" y="32" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+                       fill: #7C3AED;">
+            9/10
+          </text>
+          
+          <!-- Star Rating (Right, below rating) -->
+          <text x="280" y="52" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+                       fill: #E34F26;">
+            ★★★★★
+          </text>
+        </g>
+        <g transform="translate(320, 0)">
+          <!-- Animated Background with breathing border -->
+          <rect x="0" y="0" width="300" height="80" 
+                rx="12" ry="12"
+                fill="#0D1117" 
+                stroke="#1572B6" 
+                stroke-width="2"
+                stroke-opacity="0.3"
+                filter="url(#border-glow-CSS)">
+            
+            <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="4.2s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-width" values="2;4;2" dur="4.2s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Animated color accent bar -->
+          <rect x="0" y="0" width="4" height="80" 
+                rx="2" ry="2" fill="#1572B6" opacity="0.5">
+            
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="4;6;4" dur="2.6s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Skill Name (Left) -->
+          <text x="20" y="45" 
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+                       fill: #F0F6FC;"
+                filter="url(#text-glow-CSS)">
+            CSS
+          </text>
+          
+          <!-- Skill Icon (Center) with breathing glow -->
+          <g transform="translate(150, 40)">
+            <image x="-20" y="-20" 
+                   width="40" height="40" 
+                   href="data:image/png;base64,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"
+                   filter="url(#icon-breathing-glow-CSS)">
+              
+              <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3.1s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.8;1;0.8" dur="3.1s" repeatCount="indefinite"/>
+            </image>
+          </g>
+          
+          <!-- Rating Text (Right) -->
+          <text x="280" y="32" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+                       fill: #7C3AED;">
+            8/10
+          </text>
+          
+          <!-- Star Rating (Right, below rating) -->
+          <text x="280" y="52" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+                       fill: #1572B6;">
+            ★★★★★
+          </text>
+        </g>
+        <g transform="translate(640, 0)">
+          <!-- Animated Background with breathing border -->
+          <rect x="0" y="0" width="300" height="80" 
+                rx="12" ry="12"
+                fill="#0D1117" 
+                stroke="#F7DF1E" 
+                stroke-width="2"
+                stroke-opacity="0.3"
+                filter="url(#border-glow-JavaScript)">
+            
+            <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="4.4s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-width" values="2;4;2" dur="4.4s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Animated color accent bar -->
+          <rect x="0" y="0" width="4" height="80" 
+                rx="2" ry="2" fill="#F7DF1E" opacity="0.5">
+            
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="2.7s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="4;6;4" dur="2.7s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Skill Name (Left) -->
+          <text x="20" y="45" 
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+                       fill: #F0F6FC;"
+                filter="url(#text-glow-JavaScript)">
+            JavaScript
+          </text>
+          
+          <!-- Skill Icon (Center) with breathing glow -->
+          <g transform="translate(150, 40)">
+            <image x="-20" y="-20" 
+                   width="40" height="40" 
+                   href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAB2AAAAdgB+lymcgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAASLSURBVHic7Zl9TJVVHMc/1wyVF8lhiIJBLSJZXvsjy8owsYKwWpDilkbDuZovZc7VqOQauGy5BDWz4WAuREtboZGxcCjTas5qZS0sRRBLM4vxKm8XvP1xducunOc+l8uV81x5vv89v/M7z/mez73PebU46nAwjDVCtQHVMgGoNqBaJgDVBlTLBKDagGqZAFQbUC0TgGoDqmUCUG1AtUwAqg2olglAtQHVMgGoNqBaJgDVBlTLBKDagGqZAFQbUC0TgGoDqjXsAYwc6gb/vgRvbeofDw+Ddav16/91EUpKoeoYnKmHhiYIDoTICIiJgpTZkD4XRgV45scy1LfDJ2sg/tH+8dgYOHVYu15nF2S9Cx+WQLfdfRuTJsDWHEhN0vfjF59ASxskpMPmHfqdB7jwDzyzFDYU6Of6BYBnV8L3vwysjsMh/jGflLnPMzyArw7DgUPe1XU4YFk2NDRq5wz5IDhQFe6Rx8eMhhUZcI8VLrdD6ddQVumaEx4G+dkQNk77/YYHUPmtPF5aAEkJV58z54sx4pVc8ZyRBnlr3HceDA6g9bIYAPsq4mbXzju1MhPqz0PyLHjsIc/aMDSAK1fk8fYO8X1bLP3L8tYMrA1DD4Jjg+ULmpY22PGpb9owNACLBaZb5WUvvgFvvgdt7YNrw9AAAOalyOM9vbD+A4iZCWvz4eK/3r3f8ACWLBDrfC01NELuFoh+EJZkQd2fA3u/4QEEBcLuzfqbm247FO2BuERY/JrnIAwPACDhXviiEEJD9HPtPWKAvCsJthbr5/sFABDz+olymJvoWX57B7y0FpbbxJSpJb8BABAdCV8WwbFSeMJDENt2ut8V+hUAp+67G8qK4Ph+WPg03KiznLPlwbkL8jK/BODUdCuU5EPtUbEM1gLRbRcHKTL5NQCnoiJgkw1+KIMJ4+U5B7+Rx68LAE5Z74SPNsrLas7K49cEwKHvtMv+0zicCA7SrvNHLaRkwu79+m0/PEMeb2mTb658CuBUHSRlwJyFsPeAPEfrlxgv2bc3t8Lqt2FqEpRXidOdEyfde9BaAIWGwAhJb30CoKMTsjeCNRkqjorYC6/Dz9WuefYe2P6x/B1xt7k+F38Od8yGvEJRDwSQWQvgs3L53N7UAs9rHK3fOlkeH/R5QFc3THscTp91jTe3woxUWJQK06aINfu+Cu1fMPEB1+fac3CpoX9ecyvMWwZT4yAtWdwFtLXD72dg1z4BQaYn58jjPrkXWG4TCw5vFRkBNVUwetTVWGcXzJwPP/46WHcQOAaqD4qFVF/55BPYkAXxsd7Xz13l2nkQz6UFcHv04LwBrH9V3nnwEYCgQKgo9g7CigxYnC4vmzwRjuzVHtn1ZLGA7WWxSNKSz2aByAixRl+6CEbeoJ8fGgLb1sH7Oe7zJoZD5S7Y/g7cMslzP/GxULETcla5z7smd4P158WAdOQ4VJ+GxmYICICwm8A6BRLvh+fSIMTN3C9Tb6+4FC2rhJ9+EwNlUws4gHFjITpK7BOeekRsoWWHpn015JejRtN1tRT2RiYA1QZUa9gD+B+ejy7SkCazDAAAAABJRU5ErkJggg=="
+                   filter="url(#icon-breathing-glow-JavaScript)">
+              
+              <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3.2s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.8;1;0.8" dur="3.2s" repeatCount="indefinite"/>
+            </image>
+          </g>
+          
+          <!-- Rating Text (Right) -->
+          <text x="280" y="32" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+                       fill: #7C3AED;">
+            8/10
+          </text>
+          
+          <!-- Star Rating (Right, below rating) -->
+          <text x="280" y="52" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+                       fill: #F7DF1E;">
+            ★★★★★
+          </text>
+        </g>
+        <g transform="translate(0, 100)">
+          <!-- Animated Background with breathing border -->
+          <rect x="0" y="0" width="300" height="80" 
+                rx="12" ry="12"
+                fill="#0D1117" 
+                stroke="#61DAFB" 
+                stroke-width="2"
+                stroke-opacity="0.3"
+                filter="url(#border-glow-React)">
+            
+            <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="4.6s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-width" values="2;4;2" dur="4.6s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Animated color accent bar -->
+          <rect x="0" y="0" width="4" height="80" 
+                rx="2" ry="2" fill="#61DAFB" opacity="0.5">
+            
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="4;6;4" dur="2.8s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Skill Name (Left) -->
+          <text x="20" y="45" 
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+                       fill: #F0F6FC;"
+                filter="url(#text-glow-React)">
+            React
+          </text>
+          
+          <!-- Skill Icon (Center) with breathing glow -->
+          <g transform="translate(150, 40)">
+            <image x="-20" y="-20" 
+                   width="40" height="40" 
+                   href="data:image/png;base64,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"
+                   filter="url(#icon-breathing-glow-React)">
+              
+              <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3.3s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.8;1;0.8" dur="3.3s" repeatCount="indefinite"/>
+            </image>
+          </g>
+          
+          <!-- Rating Text (Right) -->
+          <text x="280" y="32" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+                       fill: #7C3AED;">
+            7/10
+          </text>
+          
+          <!-- Star Rating (Right, below rating) -->
+          <text x="280" y="52" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+                       fill: #61DAFB;">
+            ★★★★★
+          </text>
+        </g>
+        <g transform="translate(320, 100)">
+          <!-- Animated Background with breathing border -->
+          <rect x="0" y="0" width="300" height="80" 
+                rx="12" ry="12"
+                fill="#0D1117" 
+                stroke="#3776AB" 
+                stroke-width="2"
+                stroke-opacity="0.3"
+                filter="url(#border-glow-Python)">
+            
+            <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="4.8s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-width" values="2;4;2" dur="4.8s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Animated color accent bar -->
+          <rect x="0" y="0" width="4" height="80" 
+                rx="2" ry="2" fill="#3776AB" opacity="0.5">
+            
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="4;6;4" dur="2.9s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Skill Name (Left) -->
+          <text x="20" y="45" 
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+                       fill: #F0F6FC;"
+                filter="url(#text-glow-Python)">
+            Python
+          </text>
+          
+          <!-- Skill Icon (Center) with breathing glow -->
+          <g transform="translate(150, 40)">
+            <image x="-20" y="-20" 
+                   width="40" height="40" 
+                   href="data:image/png;base64,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"
+                   filter="url(#icon-breathing-glow-Python)">
+              
+              <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3.4s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.8;1;0.8" dur="3.4s" repeatCount="indefinite"/>
+            </image>
+          </g>
+          
+          <!-- Rating Text (Right) -->
+          <text x="280" y="32" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+                       fill: #7C3AED;">
+            8/10
+          </text>
+          
+          <!-- Star Rating (Right, below rating) -->
+          <text x="280" y="52" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+                       fill: #3776AB;">
+            ★★★★★
+          </text>
+        </g>
+        <g transform="translate(640, 100)">
+          <!-- Animated Background with breathing border -->
+          <rect x="0" y="0" width="300" height="80" 
+                rx="12" ry="12"
+                fill="#0D1117" 
+                stroke="#339933" 
+                stroke-width="2"
+                stroke-opacity="0.3"
+                filter="url(#border-glow-Nodejs)">
+            
+            <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="5s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-width" values="2;4;2" dur="5s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Animated color accent bar -->
+          <rect x="0" y="0" width="4" height="80" 
+                rx="2" ry="2" fill="#339933" opacity="0.5">
+            
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="4;6;4" dur="3s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Skill Name (Left) -->
+          <text x="20" y="45" 
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+                       fill: #F0F6FC;"
+                filter="url(#text-glow-Nodejs)">
+            Node.js
+          </text>
+          
+          <!-- Skill Icon (Center) with breathing glow -->
+          <g transform="translate(150, 40)">
+            <image x="-20" y="-20" 
+                   width="40" height="40" 
+                   href="data:image/png;base64,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"
+                   filter="url(#icon-breathing-glow-Nodejs)">
+              
+              <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3.5s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.8;1;0.8" dur="3.5s" repeatCount="indefinite"/>
+            </image>
+          </g>
+          
+          <!-- Rating Text (Right) -->
+          <text x="280" y="32" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+                       fill: #7C3AED;">
+            7/10
+          </text>
+          
+          <!-- Star Rating (Right, below rating) -->
+          <text x="280" y="52" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+                       fill: #339933;">
+            ★★★★★
+          </text>
+        </g>
+        <g transform="translate(0, 200)">
+          <!-- Animated Background with breathing border -->
+          <rect x="0" y="0" width="300" height="80" 
+                rx="12" ry="12"
+                fill="#0D1117" 
+                stroke="#A8B9CC" 
+                stroke-width="2"
+                stroke-opacity="0.3"
+                filter="url(#border-glow-C)">
+            
+            <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="5.2s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-width" values="2;4;2" dur="5.2s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Animated color accent bar -->
+          <rect x="0" y="0" width="4" height="80" 
+                rx="2" ry="2" fill="#A8B9CC" opacity="0.5">
+            
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="3.1s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="4;6;4" dur="3.1s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Skill Name (Left) -->
+          <text x="20" y="45" 
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+                       fill: #F0F6FC;"
+                filter="url(#text-glow-C)">
+            C
+          </text>
+          
+          <!-- Skill Icon (Center) with breathing glow -->
+          <g transform="translate(150, 40)">
+            <image x="-20" y="-20" 
+                   width="40" height="40" 
+                   href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAB2AAAAdgB+lymcgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAyuSURBVHiczZt7cFzVfcc/5+xK2pUlWbIkY1uS5Zf8im1IHPModakTpw3tlDZNx84A5tEEbBimGZppAum0kE5KSN2ZDmmSlubRJqUdbILL1ISBxlg8DNh51Y4fsewgIgthvWyttCuttLv3/PrH3ce9d1fah1Yuv5mre+/Zc8/9/b7n9zq/c6W40vRS/zwigavwmxosmQeAUeOoeIRxGeCOReNXkh01l4PPfz7UEBe5SWCbCBuMsEaEFoMggn0ArhuRPjBdGHUSTCfRqle5uyE0VzyWHYD5z4caUOw0yC4RrjOCz5YLTFLOPAAAjmvBAjkK5ilMfB+3tY+Uk9+yAbDghfB6UYmHRNQOI1TZ/IstNLMCwNk2BbIPi8e5Y8kvy8H3rAFoOjS2WiXMVwz8kRF0WlDmBIBUXwPqAFgPs6vtV7Phv2QAWt+UYCI89gUL+YIIAcEh4NwDkHowDvJPUPHFUp1nSQC0vDhytaX1foHVRiTNz/8DAKnrsyh2cmfbL4qVRRct/KHQbuPTR4HVxT47h7QWI0f5bu9nin2wcABEVOuh0FdB/TMQKPZFV4CCIN/iuz1P8KgULFdBJrD5p1IxNDr2HSPscqq6ff2+MAFPm/k+vcs+zaMqkU+2/EiJqKHR8L8AuwoB6/1B6g5ae75XiCbk7bD8lfBepbirLHxdWbqVJT1P5Os0IwArO8O7BT5XPp6uMCl5gCe7Z3SM0/qAFa9GNmLMMQNB2+wy9vz+9wGuvpOgbuDe5ccLBqD1TQlWxcLHRVht0uOUDwCfsmhlknosUDAWMwyYCkZVYC4AADhLhfogdy+f9MrqzwVAVXzsi6DKFucrsfhoZYibmzQ3tsynY2EDfp1tfeNTcY70DPHyexO8MFLB6ViwXCysJWYeAh71/pClASs7R1cprU6KELDVtXQNqJcpdtePce+mJTTXVhfFsQj8z/mL7D07wcvjNcxSA0BkCsUm7l15zvmerGnwafVVypDo3BEY5PhNtfzljauKFh5AKfjd1Ys5dMtKnrvG0Kxis2WpCsOXs97jvOl4NbxOIacM9qquFA2oljjfXDrBLR9YOluGXTQQjnLbK/28PBYoVQNAxJCQTTzQcTo1rksDtJKHvW3F0AKZ4r83mLILD3BVbZDnb17K79TOqmKm0erzzoa0Bmx8PdQQE99FEanKzHrhGlBNnAPrDJuXLpwNg3kpGre4+eDbvJr2C0VpAAiTTPoW8+DykI1IkhLi+xRQVSpjexdH5lx4gGCFj//c3saC6HCpQwSosnakbjLqrri91BE/4R9ix6ZlpT5eNC2pC/K1LXUQGix1iLSsCuCazpH6Kb9/2Ag+EaEYEwiaGG9dH2DR/JqC3/5G90WeO/E2XYMhLkfjNFQHuK59Ibd+uIMVjXUFj3P9Nw5xzDRBXVMxJgAiFlP+Jh5cHvIDTPl92wBfwW920K3VIyya31FQ318Nhrjv6cMcPt+HoEBpJJkQPX+ml0deOs6eG9ex9w+upboyZ47moj/fuoadTx+zb2obi2HbR2ViK3BQA2jUTcU8nSIF3LO+MLv/2YUBtv7DM3Se77ODvNb2kQQCrTHAN9/sYvuTLxGZyruU5483tNJWXw3970D4UnHMa7MNkj5AYFNxT9v0QUZY1jg/b7/hSJQ/+dYPGY5M2sKmDpJAKJ0BRSne6r3EPc++lXdcv1b8/tol9kwM9kCkiC0DURsh4wTXFP5khn67Nv8sAXz5xR/TNzqeEVY7BdYOEDJa8fSJHg6/3Z+fh+VNGQCHLhQDwhoA/wc6B2sEFhf6lJO2NOdPcUPRKf7t6Bn3zCsA572yj9R8aPv6bzvPYCSZqqj0HxwNxI1kxkDD5ffs62BezWxl74l5fp+ubE6UWB5f3Zjf83eee5dowiRn1iGsSt6n/YDKnJO/H+4e5HD3sOcZT9+UGaEyx+WL0KAgWDsTa4q6mka/VPhrsKRo4RWwuIDQ9/PeIbfNp2dcu6/BDVBaQC9oKY3IoTlOAEMD9n1g3vTMxU2tXzC1pShAUBJolf+5wUjU7e3RaRXPmtX0NW7AUJlnIBuYlPDpsZPH2JD90/Qg1OUPttNQwZC5Zt45+14hUm1qhj5e1Vd2YuPVLsg8F75knytzF1f8Ch1OplBF0YTyY0TyakFzTTDj5b0m4Lp3CKg9s59lFg6zcWoTKQfr6RsZgRqgIqvMMeZX8UQEXXwSKMDF0XFa6mf2Ax9qa/YI7VRThxMENxhKMz9QyZaWBcnfwGXrabOAzl+PYqXalWMsHGBNjEE14HeAUKHDfsvEhtBByXBROJ0fyQ/Ato4lBCr9RBOpcJWyY+25z3Z4d16zlCc+vmHG8d8NT9H29TeTpuDVEI+pRMMQUOCvBBDGIpf06W0LI8DFYoUH+MlwVpE1ixqCVdx17Rq3GaTSYFcGqF1nn/axe3N73vGP9I5mhFSecZRD21JtU+OQiAG8y19cPZ7Sqa5SAHglXJjp/NVHr7E1xSlsVjh0M3//lmWsb54xjgPwRt9o4cKnNCMWhUT8HCSNSkHR++oAP7fq6BmJ5O3XNK+KH9x2E001QZQzFfbMeorx7Sua+bvt6/KOG7MMz3QN5xZe5RDe+V4TP50GwIi8UgoAAnz73OWC+m5uWcCR3R9je8di0jPhWRNU+DWfu2EFB3duIeDXecd8pmuYgWjCo0WOqJG16HK0GX0YKENBRBK8dUOQRbWFb2L8uG+Eg139nBkOMxqzWBCs5NqWBnauX0JbXWEVeQGu+/fj/GRgnKwcAjJtgjs5stsTBOc1sXvlaNrzr389fMQSbiwWACPCJ6rDPPmbrQUDUA568kQ/ew51O4T25AFKJyMD7ohg9znCZzduBXdN8KlSmTkwXsu+s/mXruWivkiMh17vzVZ1r9rndLIKRKdlTQPgE2sfMFUqU5+/UMXPLs7ZB51pisQtPnmwi1DM8jg+LxA5Io4dLSaR6n2p8dIAnNxaP6JE9uV+bX4aF82nTlpzCkI0YbjluS6O9Y/PIDzTCJ9yhmp/ak8APLtAxvAVbLMviS4ZP3943OK5roGShZyO3o3E+PiBs3T2hfMInyMcZtYWFqrqMee4LgDObas7K8KB2TA6jp87uzR7XjzF8ETJFuWiZ89f4uqnfsFrFyNue3Ytpsi2d7fwoPSz3L/ClfRl5f9l2x63EszrPcV9G67ivg8vp7m6uE0nAX7YPcLjP32PN96LOOoBSfuWzGLI5eGdIS8VBm0woggbuH9194wAAKx6bfRLYtRfz/b7AInHSHSfwh+f5CMrFvJ7Kxeyta2BjgXzqNDZrw7HLF7rG+Pl3hAvvDNKV2iSnDUD18IHBzDa05YU0d57eIQ9HX/jfWdOAJZ1SsCvwv9rhLWz/kQmkcDq+SUyOYGgEaXQPh8ttQEag5WgNKGYRf94nEgiWZdwFUic2Z0jtrvW/t5EyKMFSp1hSj7En3Vk2eS0S+CVneENojhmRKpn/Y2QlcD0nMXEJhE0JqmmQmpnyMO4t2DiWud7+jmLI3g0wL6eRPT17FlxIpec0ybcb2+rPSUin53u96LI50e1r4NATdZuUPrsLJtlLZC8Ts7bN0cypFO5gLp/OuFnBADgnW113xb4+7KAoH2ollVQVe0JU87FijeEedTfC1TOBCglvAalH+eelf86E1vTmkCaRFR7Z/g7InJ3WT6TSyQwA79G4rG0T8iq4nhrhOmqjifv12SubZQzbaL/g8+070KpGQueM2qADZGSHlV7L8L38/YthHx+WLQMqoKe2XOmsMozox4tcc9y9sxr3/foa78rn/BQiAakSES1Hhp7RBSPlOVLUctChvoQK07Goens2U95/un2BYBMRNCg1Ne4sPRBHlUFZbSFA5CkJYfGPi1i/lFEBWcFgGCDMDKQrNE5TSAtTEbts8KcMwwqUGoC9AP86dIZbX7WAABc9aPIRiXWfoG1s/5WWAyMDEIinglnzu0uJyiudb0zNPrOoGQHd7WfpkjK7wNy0MDHak42huquVshDQP7S8EykNNQ326XqnGv7lF/I4fm1juLzfwmszaUIDyVqgJOaXxxdJUoeE+GTs/q3OWNBeAQs4zCB1Fm5tQJlUPoHVMjD3NbenYuvQmnWAKSo8aWxtUbkYWNkhyT/ja7oz+WNgfFR++yy9XQuMIliP8r/GLtaSirle6lsAKSo/r9G6qVC7TBK3S5ifqPof501BibDdmfbzhMofRTkKQz7uHt5WSsuZQfASQ0/ujx/apLfElEfEcUGY1gjQluef5i4AOYcE+NnUOowvrpObm8cmyse5xSAnLS/N0igdhHG1GDE3ljUKkJMRyDcz4626JVk5/8Af77haTyWj5kAAAAASUVORK5CYII="
+                   filter="url(#icon-breathing-glow-C)">
+              
+              <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3.6s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.8;1;0.8" dur="3.6s" repeatCount="indefinite"/>
+            </image>
+          </g>
+          
+          <!-- Rating Text (Right) -->
+          <text x="280" y="32" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+                       fill: #7C3AED;">
+            6/10
+          </text>
+          
+          <!-- Star Rating (Right, below rating) -->
+          <text x="280" y="52" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+                       fill: #A8B9CC;">
+            ★★★★★
+          </text>
+        </g>
+        <g transform="translate(320, 200)">
+          <!-- Animated Background with breathing border -->
+          <rect x="0" y="0" width="300" height="80" 
+                rx="12" ry="12"
+                fill="#0D1117" 
+                stroke="#00599C" 
+                stroke-width="2"
+                stroke-opacity="0.3"
+                filter="url(#border-glow-C)">
+            
+            <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="5.4s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-width" values="2;4;2" dur="5.4s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Animated color accent bar -->
+          <rect x="0" y="0" width="4" height="80" 
+                rx="2" ry="2" fill="#00599C" opacity="0.5">
+            
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="4;6;4" dur="3.2s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Skill Name (Left) -->
+          <text x="20" y="45" 
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+                       fill: #F0F6FC;"
+                filter="url(#text-glow-C)">
+            C++
+          </text>
+          
+          <!-- Skill Icon (Center) with breathing glow -->
+          <g transform="translate(150, 40)">
+            <image x="-20" y="-20" 
+                   width="40" height="40" 
+                   href="data:image/png;base64,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"
+                   filter="url(#icon-breathing-glow-C)">
+              
+              <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3.7s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.8;1;0.8" dur="3.7s" repeatCount="indefinite"/>
+            </image>
+          </g>
+          
+          <!-- Rating Text (Right) -->
+          <text x="280" y="32" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+                       fill: #7C3AED;">
+            7/10
+          </text>
+          
+          <!-- Star Rating (Right, below rating) -->
+          <text x="280" y="52" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+                       fill: #00599C;">
+            ★★★★★
+          </text>
+        </g>
+        <g transform="translate(640, 200)">
+          <!-- Animated Background with breathing border -->
+          <rect x="0" y="0" width="300" height="80" 
+                rx="12" ry="12"
+                fill="#0D1117" 
+                stroke="#4479A1" 
+                stroke-width="2"
+                stroke-opacity="0.3"
+                filter="url(#border-glow-SQL)">
+            
+            <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="5.6s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-width" values="2;4;2" dur="5.6s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Animated color accent bar -->
+          <rect x="0" y="0" width="4" height="80" 
+                rx="2" ry="2" fill="#4479A1" opacity="0.5">
+            
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="3.3s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="4;6;4" dur="3.3s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Skill Name (Left) -->
+          <text x="20" y="45" 
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+                       fill: #F0F6FC;"
+                filter="url(#text-glow-SQL)">
+            SQL
+          </text>
+          
+          <!-- Skill Icon (Center) with breathing glow -->
+          <g transform="translate(150, 40)">
+            <image x="-20" y="-20" 
+                   width="40" height="40" 
+                   href="data:image/png;base64,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"
+                   filter="url(#icon-breathing-glow-SQL)">
+              
+              <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3.8s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.8;1;0.8" dur="3.8s" repeatCount="indefinite"/>
+            </image>
+          </g>
+          
+          <!-- Rating Text (Right) -->
+          <text x="280" y="32" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+                       fill: #7C3AED;">
+            6/10
+          </text>
+          
+          <!-- Star Rating (Right, below rating) -->
+          <text x="280" y="52" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+                       fill: #4479A1;">
+            ★★★★★
+          </text>
+        </g>
+        <g transform="translate(0, 300)">
+          <!-- Animated Background with breathing border -->
+          <rect x="0" y="0" width="300" height="80" 
+                rx="12" ry="12"
+                fill="#0D1117" 
+                stroke="#F05032" 
+                stroke-width="2"
+                stroke-opacity="0.3"
+                filter="url(#border-glow-Git)">
+            
+            <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="5.8s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-width" values="2;4;2" dur="5.8s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Animated color accent bar -->
+          <rect x="0" y="0" width="4" height="80" 
+                rx="2" ry="2" fill="#F05032" opacity="0.5">
+            
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="3.4s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="4;6;4" dur="3.4s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Skill Name (Left) -->
+          <text x="20" y="45" 
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+                       fill: #F0F6FC;"
+                filter="url(#text-glow-Git)">
+            Git
+          </text>
+          
+          <!-- Skill Icon (Center) with breathing glow -->
+          <g transform="translate(150, 40)">
+            <image x="-20" y="-20" 
+                   width="40" height="40" 
+                   href="data:image/png;base64,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"
+                   filter="url(#icon-breathing-glow-Git)">
+              
+              <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3.9s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.8;1;0.8" dur="3.9s" repeatCount="indefinite"/>
+            </image>
+          </g>
+          
+          <!-- Rating Text (Right) -->
+          <text x="280" y="32" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+                       fill: #7C3AED;">
+            8/10
+          </text>
+          
+          <!-- Star Rating (Right, below rating) -->
+          <text x="280" y="52" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+                       fill: #F05032;">
+            ★★★★★
+          </text>
+        </g>
+        <g transform="translate(320, 300)">
+          <!-- Animated Background with breathing border -->
+          <rect x="0" y="0" width="300" height="80" 
+                rx="12" ry="12"
+                fill="#0D1117" 
+                stroke="#181717" 
+                stroke-width="2"
+                stroke-opacity="0.3"
+                filter="url(#border-glow-GitHub)">
+            
+            <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-width" values="2;4;2" dur="6s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Animated color accent bar -->
+          <rect x="0" y="0" width="4" height="80" 
+                rx="2" ry="2" fill="#181717" opacity="0.5">
+            
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="4;6;4" dur="3.5s" repeatCount="indefinite"/>
+          </rect>
+          
+          <!-- Skill Name (Left) -->
+          <text x="20" y="45" 
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 16px; font-weight: bold; 
+                       fill: #F0F6FC;"
+                filter="url(#text-glow-GitHub)">
+            GitHub
+          </text>
+          
+          <!-- Skill Icon (Center) with breathing glow -->
+          <g transform="translate(150, 40)">
+            <image x="-20" y="-20" 
+                   width="40" height="40" 
+                   href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAB2AAAAdgB+lymcgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAVJSURBVHic7Zt7aFZlHMc/O21lczdL22xSbW1zy0KTEiRrkjMJocAgwSLoQtKFFgh2g5IK7GZR7Z+yiNKEikTS7KJR2U0iBhaj6zCtbIllw62xdnn74/e+eXY8l+d3bu+B+sLvj5f3d/s+73me8zy/5/fCfxwlKcWZBDQDLXmpyUtF/vsB4E/gMPA98F1ehpNOLKkBOA64CFgELATmAWVKH38DnwMfAO8Bu4Dx2DJMCGcDjwG/ALmY5WfgUWBWamwUWABsRX6huIm7ycdARyrMAtAG7CQd0m7yLtCaOEsXnAg8gszTYpEvyDDwELLQpoJWYE+ChMJKD3BOgrwBuBoYLDJRPxkAViRFvpP0FrkoMg6siZN4CfBkBohp5Ym4BmBtBsiElQeikl+VARJRpTMs+YuB0QwQiCpjwGIvkl5ngXqgGzjFZ4BywA15HzOBS4DZPvpxIQfsRjZgvUAt8HCATR8wF/jVNMgOgkf2Mxe7OcCLwIiBvVaGgKeQU6UdFnDAwP4tU/IrDBN60MdHC/Cmi81PwCfANmBDnlAX8DKwHfgU+bWcdhuRp9ILmwxzvjKIfI1HAm6yPMgZsAy4F1gK1BnoFzADuBy4H7NDz12GOR8Aqvwc3WfoKAdcqiCUNG7FPO97vJxUAX8oHC1MgklIXIt53oeAyoKhZXOyEpiiCOr3hkgb0xS6JwM3Fj7YB+B6ZdAsVWbalPrHcJ2P/rW0K3y+seNb9PnPszt4Wmk8ihQ8s4Ll6AdgwmHpG6XxmmT5hMIz6Dj0FAzrlYYHsa2iGUId+mJNvQW0KwM9DhyJJ+dY0Qc8r7S50ALOUhptVuqniS1K/TYLXVl5L3JllVV8hNQFTdFmcezpyg+9unxSxwiwX6HfbAEnKQz6dPkUBZocp1gcvaE1wV/KZIqBQYVulXYAypXJFAOTFbqVFlIzM0W1MplioEahO2qhe6xPVyZTDDQodActoF9h0IS+0SFN1KI70vdb6F4b5aRT+Q2LC5T6+yzgR6XRUqV+mtCW6fZZwFdKo6uYWEjJCsqRIqwGX4LU9rRn6SviyDhmdKLnsQBkHzCsNOwlW3uCWqTYqeEwhHS6AGY3QU55IXFaZigF3kaf/3a7kzCPTw7pzUmr2dINpcBLLnmZyC12R3WEb3jajO7WJy40Au+HyDeHTPmpTodbQjrLIfNvJbY5lSCqgTuI1qv0qpvjRR7KG5HLhEbgJqQo4uX4d2AdsroeHyPpCmAJsB4peIQlXhDPDdNuF+WDDoPJwOsGQQaQHt8uZOBKFYQrgdXAc8g1fJzX7R/6BV7iYTQK3GnTK0PXIXq7gnwB62IkbZf2oMBbfYxvs+lNB34zCNhDuJ1jBeZX9ZHmvhNNeM+zEeBcm+5igt8eq9TUj6JLQS5I+oHTTAPf7ONom0O3He8WlTHgPA1jB5b55KGV6zSBS4A3fJzNd+hPAq4BnkUes/XIwjddE9QF5/vkEPuj70Q18LWHw3dIZwfY6BFfI3vQ1QknoBnvhWh1WKcKnOER21T2E0MZbzberTNrSbZPv8Ejron0If2LsWAO0mToFugH4G7kiu0Em00Z0rkRpXhypkfMINlLjOTtyZh0YhxGzgZj+c9RnpAmg3hO6QZOjRDTF5XAa8qEohROWpSxNkSMZ4QS5Cx9xDApzc2TEzMNYxxC/s2SKhpwb4d1im9nZgBaA3yPI6fVYtQj/kUH8AXeSWquqpxo8/G7A9koZQYdSEd2YfHLIdMkyk3SNCYehYeQxuq5kTK1IYnd3Azk7qARWTB3RvR3GXIZ0w28gvzJ+n/EhX8AXiVFMFuUCq4AAAAASUVORK5CYII="
+                   filter="url(#icon-breathing-glow-GitHub)">
+              
+              <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="4s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite"/>
+            </image>
+          </g>
+          
+          <!-- Rating Text (Right) -->
+          <text x="280" y="32" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px; font-weight: bold; 
+                       fill: #7C3AED;">
+            8/10
+          </text>
+          
+          <!-- Star Rating (Right, below rating) -->
+          <text x="280" y="52" text-anchor="end"
+                style="font-family: Segoe UI, Arial, sans-serif; font-size: 12px; 
+                       fill: #181717;">
+            ★★★★★
+          </text>
+        </g>
+</svg>
