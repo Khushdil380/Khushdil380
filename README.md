@@ -4,12 +4,27 @@
 </p>
 
 
-git push origin mainVv
-<!-- GitHub Stats, Contribution Graph or Animation -->
+<h1>🏆 LeetCode</h1>
+<p align="center">
+  
+  [![LeetCode Total](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/total_solved.svg)](https://leetcode.com/progress/)
+  [![LeetCode easy](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/easy.svg)](https://leetcode.com/progress/)
+  [![LeetCode medium](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/medium.svg)](https://leetcode.com/progress/)
+  [![LeetCode hard](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/hard.svg)](https://leetcode.com/progress/)
+  
+</p>
+<div align="center">
+  <a href="https://leetcode.com/submissions/#/">
+    <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/recent_submissions.svg" alt="LeetCode recent" />
+  </a>
+</div>
+
+
+
+
 <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Khushdil380&theme=tokyonight" />
     
-## 🌟 My Top Picks
-
+<h1>🌟 My Top Picks</h1>
 Here are some of my favorite projects that I personally use, maintain, or feel proud of. Explore them to see what I've been working on!
 
 ### 🚀 Featured Projects
@@ -82,7 +97,7 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 <img src="https://raw.githubusercontent.com/Khushdil380/github-garden/main/garden.svg" width="100%"/>
 
 
-## 🚀 Projects
+<h1> 🚀 Projects </h1>
 
 | Project | Details |
 |--------|---------|
@@ -101,8 +116,7 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 [![LinkedIn Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//LinkedIn-social-badge.svg)](https://www.linkedin.com/in/khushdil-ansari/) [![email](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Email-social-badge.svg)](mailto:khushdilansari345@gmail.com)  [![Whatsapp Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Whatsapp-social-badge.svg)](https://wa.link/m74qd4) [ ![Medium](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Medium-social-badge.svg)](https://medium.com/@khushdilansari345) [![Github Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Github-social-badge.svg)](https://github.com/Khushdil380)  [![Reddit](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//Reddit-social-badge.svg)](https://reddit.com/user/RedditUserName) [![X](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//X-social-badge.svg)](https://x.com/XUserName) [![YouTube](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets//YouTube-social-badge.svg)](https://youtube.com/@YouTubeChannelID) 
 
 
-
-# 📊 GitHub Stats:
+## 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Khushdil380&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Khushdil380&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Khushdil380&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
