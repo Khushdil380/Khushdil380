@@ -1,0 +1,76 @@
+name: Update Contribution Graph
+
+on:
+  schedule:
+    # Run daily at 12:00 PM UTC (adjust as needed)
+    - cron: '0 12 * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [ main ]
+    paths: 
+      - 'src/githubcontibution/**'
+      - '.github/workflows/update-contribution-graph.yml'
+
+jobs:
+  update-contribution-graph:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Generate contribution graph
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_ACTIONS: true
+      run: |
+        echo "🔄 Generating contribution graph with real GitHub data..."
+        node src/githubcontibution/contribution-graph-generator.js
+        echo "✅ Contribution graph generated successfully!"
+    
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push changes
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add assets/contributiongraph/contribution-graph.svg
+        git commit -m "🌱 Update contribution graph $(date +'%Y-%m-%d')"
+        git push
+    
+    - name: Summary
+      run: |
+        echo "🎯 **Contribution Graph Update Summary**" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "- 📅 **Date**: $(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "- 👤 **User**: Khushdil380" >> $GITHUB_STEP_SUMMARY
+        echo "- 📊 **Status**: ${{ steps.verify-changed-files.outputs.changed == 'true' && 'Updated' || 'No changes' }}" >> $GITHUB_STEP_SUMMARY
+        echo "- 🔗 **Graph**: [View contribution graph](https://github.com/Khushdil380/Khushdil380/blob/main/assets/contributiongraph/contribution-graph.svg)" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "Generated using real GitHub API data with:" >> $GITHUB_STEP_SUMMARY
+        echo "- 🎨 Monthly color coding (12 different colors)" >> $GITHUB_STEP_SUMMARY
+        echo "- 📈 Progressive fill system (25%, 50%, 75%, 100%)" >> $GITHUB_STEP_SUMMARY
+        echo "- 🐍 Animated snake moving through graph" >> $GITHUB_STEP_SUMMARY
+        echo "- 🖱️ Hover tooltips with contribution details" >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,27 @@
+{
+  "name": "khushdil380-readme-generators",
+  "version": "1.0.0",
+  "description": "Modular SVG generators for GitHub README profile",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "typewriter": "node src/introduction/typewriter-generator.js",
+    "skills": "node src/skill/skill-badge-generator.js",
+    "contribution-graph": "node src/githubcontibution/contribution-graph-generator.js"
+  },
+  "keywords": [
+    "github",
+    "readme",
+    "svg",
+    "animation",
+    "contribution-graph"
+  ],
+  "author": "Khushdil Ansari",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-request": "^6.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
