@@ -57,6 +57,9 @@
 </table>
 
 
+<h1>Github Contibution</h1>
+<img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/contributiongraph/contribution-graph.svg" width="100%"/>
+
 
 
 <h1>🏆 LeetCode</h1>
@@ -98,9 +101,6 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
   
 </table>
-
-<h1>Github Contibution</h1>
-<img src="https://raw.githubusercontent.com/Khushdil380/github-garden/main/garden.svg" width="100%"/>
 
 
 <h1> 🚀 Projects </h1>

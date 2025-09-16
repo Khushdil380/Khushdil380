@@ -2,76 +2,41 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from 'url';
 
-// ES module compatibility
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// 🎨 CONFIGURATION
+// Configuration
 const config = {
-  // 👤 GitHub user
   username: "Khushdil380",
-  githubToken: process.env.GITHUB_TOKEN || null, // Get token from environment
+  githubToken: process.env.GITHUB_TOKEN || null,
   
-  // 📐 Graph dimensions
-  cellSize: 15,      // Larger squares
-  cellGap: 3,        // Better spacing
+  cellSize: 15,
+  cellGap: 3,
   weeksInYear: 53,
   daysInWeek: 7,
   
-  // 🎨 Monthly colors (dull, non-green)
   monthColors: {
-    0: "#3B4252",   // January - Dark blue-gray
-    1: "#5E81AC",   // February - Blue
-    2: "#81A1C1",   // March - Light blue
-    3: "#88C0D0",   // April - Cyan
-    4: "#B48EAD",   // May - Purple
-    5: "#D08770",   // June - Orange
-    6: "#EBCB8B",   // July - Yellow
-    7: "#A3BE8C",   // August - Light green-gray
-    8: "#BF616A",   // September - Red
-    9: "#D08770",   // October - Orange
-    10: "#5E81AC",  // November - Blue
-    11: "#4C566A"   // December - Gray
+    0: "#3B4252", 1: "#5E81AC", 2: "#81A1C1", 3: "#88C0D0",
+    4: "#B48EAD", 5: "#D08770", 6: "#EBCB8B", 7: "#A3BE8C",
+    8: "#BF616A", 9: "#D08770", 10: "#5E81AC", 11: "#4C566A"
   },
   
-  // 🟢 Contribution fill colors (green gradient)
   contributionFills: {
-    0: "transparent",     // No contributions
-    25: "#0d4429",       // 0-3 contributions (25% fill)
-    50: "#006d32",       // 4-5 contributions (50% fill) 
-    75: "#26a641",       // 6-8 contributions (75% fill)
-    100: "#39d353"       // 8+ contributions (100% fill)
+    0: "transparent", 25: "#0d4429", 50: "#006d32", 
+    75: "#26a641", 100: "#39d353"
   },
   
-  // 🐍 Realistic snake configuration
   snake: {
     color: "#ff6b6b",
     headColor: "#ff3030",
-    bodySegments: 6, // Reduced for more realistic look
-    speed: 2.0, // Faster, more natural movement
+    bodySegments: 6,
+    speed: 2.0,
     glowEffect: true,
     smoothMovement: true
-  },
-  
-  // 🎨 Styling
-  backgroundColor: "#0d1117",
-  borderColor: "#21262d",
-  textColor: "#c9d1d9"
+  }
 };
 
-// 📅 UTILITY FUNCTIONS
-function getContributionLevel(count) {
-  if (count === 0) return 0;
-  if (count >= 1 && count <= 5) return 25;
-  if (count >= 6 && count <= 8) return 50;
-  if (count >= 9 && count <= 10) return 75;
-  return 100; // above 10 contributions
-}
-
-function getMonthFromDate(date) {
-  return date.getMonth();
-}
-
+// Utility functions
 function getDayName(date) {
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   return days[date.getDay()];
@@ -83,7 +48,7 @@ function formatDate(date) {
   return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
 }
 
-// 🌐 GITHUB API INTEGRATION
+// GitHub API Integration
 async function fetchRealContributions() {
   // Check if we're in GitHub Actions environment
   const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
