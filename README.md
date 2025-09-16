@@ -1,6 +1,6 @@
 <h1>👋 Hi there </h1>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=62F73A&center=true&width=435&lines=Hello+my+name+is+Khushdil+Ansari;This+is+2nd+line;This+is+third+line;This+is+fourth+line" alt="Typing SVG" />
+   <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/introduction/typewriter.svg" alt="Typewriter Animation" />
 </p>
 
 
