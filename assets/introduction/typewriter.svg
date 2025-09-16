@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="80" 
+     viewBox="0 0 600 80">
+  
+  <!-- Animation cycle duration: 30.4 seconds -->
+  
+  
+        <text x="20" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          H
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0;0.0032948929159802307;0.19275123558484347;0.1943986820428336;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="36.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          e
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.0032948929159802307;0.006589785831960461;0.19110378912685336;0.19275123558484347;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="53.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          l
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.006589785831960461;0.009884678747940693;0.18945634266886324;0.19110378912685336;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="70.4" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          l
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.009884678747940693;0.013179571663920923;0.18780889621087313;0.18945634266886321;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="87.2" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          o
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.013179571663920923;0.016474464579901153;0.186161449752883;0.18780889621087313;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="104" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          ,
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.016474464579901153;0.019769357495881382;0.1845140032948929;0.186161449752883;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="120.80000000000001" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+           
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.019769357495881386;0.023064250411861616;0.18286655683690278;0.1845140032948929;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="137.60000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          I
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.023064250411861616;0.026359143327841845;0.18121911037891267;0.18286655683690278;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="154.4" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          &apos;
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.026359143327841845;0.029654036243822075;0.17957166392092253;0.18121911037891264;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="171.20000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          m
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.029654036243822075;0.032948929159802305;0.17792421746293244;0.17957166392092253;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="188" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+           
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.032948929159802305;0.036243822075782535;0.17627677100494232;0.17792421746293244;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="204.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          K
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.036243822075782535;0.03953871499176277;0.1746293245469522;0.17627677100494232;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="221.60000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          h
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.03953871499176277;0.04283360790774301;0.1729818780889621;0.1746293245469522;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="238.4" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          u
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.042833607907742995;0.04612850082372323;0.17133443163097195;0.17298187808896207;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="255.20000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          s
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.04612850082372323;0.04942339373970347;0.16968698517298186;0.17133443163097195;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="272" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          h
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.049423393739703454;0.05271828665568369;0.16803953871499175;0.16968698517298186;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="288.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          d
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.05271828665568369;0.05601317957166392;0.16639209225700163;0.16803953871499175;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="305.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          i
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.05601317957166392;0.05930807248764416;0.16474464579901152;0.16639209225700163;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="322.40000000000003" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          l
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.05930807248764415;0.06260296540362438;0.16309719934102138;0.1647446457990115;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="339.2" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+           
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.06260296540362438;0.06589785831960461;0.1614497528830313;0.16309719934102138;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="356" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          A
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.06589785831960461;0.06919275123558484;0.15980230642504117;0.1614497528830313;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="372.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          n
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.06919275123558484;0.07248764415156507;0.15815485996705106;0.15980230642504117;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="389.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          s
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.07248764415156507;0.07578253706754531;0.15650741350906094;0.15815485996705106;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="406.40000000000003" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          a
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.07578253706754531;0.07907742998352554;0.1548599670510708;0.15650741350906092;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="423.20000000000005" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          r
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.07907742998352554;0.08237232289950577;0.1532125205930807;0.1548599670510708;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="440" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          i
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.08237232289950576;0.08566721581548599;0.1515650741350906;0.1532125205930807;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="20" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          F
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.22734761120263589;0.23064250411861612;0.39044481054365726;0.3920922570016474;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="36.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          u
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.23064250411861612;0.23393739703459632;0.3887973640856672;0.3904448105436573;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="53.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          l
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.23393739703459634;0.23723228995057657;0.38714991762767703;0.3887973640856672;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="70.4" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          l
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.23723228995057657;0.24052718286655678;0.38550247116968694;0.3871499176276771;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="87.2" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+           
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.24052718286655683;0.24382207578253703;0.3838550247116968;0.38550247116968694;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="104" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          S
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.24382207578253703;0.24711696869851726;0.38220757825370666;0.3838550247116968;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="120.80000000000001" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          t
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.2471169686985173;0.2504118616144975;0.38056013179571657;0.3822075782537067;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="137.60000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          a
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.2504118616144975;0.25370675453047775;0.37891268533772643;0.38056013179571657;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="154.4" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          c
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.25370675453047775;0.2570016474464579;0.37726523887973634;0.3789126853377265;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="171.20000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          k
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.257001647446458;0.2602965403624382;0.37561779242174625;0.37726523887973634;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="188" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+           
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.2602965403624382;0.2635914332784184;0.3739703459637561;0.37561779242174625;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="204.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          D
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.26359143327841844;0.26688632619439867;0.372322899505766;0.37397034596375617;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="221.60000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          e
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.26688632619439867;0.2701812191103789;0.3706754530477759;0.372322899505766;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="238.4" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          v
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.2701812191103789;0.2734761120263591;0.3690280065897858;0.37067545304777594;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="255.20000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          e
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.2734761120263591;0.2767710049423393;0.36738056013179565;0.3690280065897858;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="272" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          l
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.2767710049423393;0.28006589785831953;0.3657331136738055;0.36738056013179565;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="288.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          o
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.2800658978583196;0.2833607907742998;0.3640856672158154;0.36573311367380557;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="305.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          p
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.2833607907742998;0.28665568369028005;0.3624382207578253;0.3640856672158154;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="322.40000000000003" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          e
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.28665568369028005;0.2899505766062602;0.3607907742998352;0.36243822075782534;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="339.2" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          r
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.2899505766062602;0.29324546952224045;0.35914332784184505;0.3607907742998352;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="20" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          P
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.4250411861614497;0.42833607907742993;0.6474464579901152;0.6490939044481053;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="36.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          r
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.42833607907742993;0.4316309719934101;0.6457990115321252;0.6474464579901152;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="53.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          o
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.4316309719934101;0.43492586490939034;0.644151565074135;0.6457990115321252;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="70.4" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          b
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.4349258649093904;0.4382207578253706;0.6425041186161449;0.644151565074135;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="87.2" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          l
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.4382207578253706;0.44151565074135085;0.6408566721581548;0.642504118616145;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="104" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          e
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.44151565074135085;0.4448105436573311;0.6392092257001647;0.6408566721581548;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="120.80000000000001" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          m
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.4448105436573311;0.44810543657331126;0.6375617792421745;0.6392092257001647;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="137.60000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+           
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.44810543657331126;0.4514003294892915;0.6359143327841844;0.6375617792421745;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="154.4" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          S
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.45140032948929154;0.45469522240527177;0.6342668863261942;0.6359143327841844;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="171.20000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          o
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.45469522240527177;0.457990115321252;0.6326194398682042;0.6342668863261943;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="188" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          l
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.457990115321252;0.46128500823723223;0.630971993410214;0.6326194398682042;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="204.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          v
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.46128500823723223;0.4645799011532124;0.629324546952224;0.630971993410214;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="221.60000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          e
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.4645799011532124;0.46787479406919263;0.6276771004942339;0.629324546952224;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="238.4" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          r
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.4678747940691927;0.4711696869851729;0.6260296540362437;0.6276771004942339;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="255.20000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+           
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.4711696869851729;0.47446457990115315;0.6243822075782537;0.6260296540362438;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="272" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          +
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.47446457990115315;0.4777594728171334;0.6227347611202635;0.6243822075782537;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="288.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+           
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.4777594728171334;0.48105436573311355;0.6210873146622734;0.6227347611202635;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="305.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          T
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.48105436573311355;0.4843492586490938;0.6194398682042832;0.6210873146622734;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="322.40000000000003" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          e
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.48434925864909384;0.48764415156507407;0.6177924217462931;0.6194398682042832;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="339.2" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          c
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.48764415156507407;0.4909390444810543;0.616144975288303;0.6177924217462932;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="356" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          h
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.4909390444810543;0.49423393739703453;0.614497528830313;0.616144975288303;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="372.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+           
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.49423393739703453;0.49752883031301476;0.6128500823723227;0.614497528830313;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="389.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          E
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.49752883031301476;0.5008237232289949;0.6112026359143327;0.6128500823723227;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="406.40000000000003" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          n
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.500823723228995;0.5041186161449752;0.6095551894563426;0.6112026359143327;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="423.20000000000005" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          t
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.5041186161449752;0.5074135090609555;0.6079077429983525;0.6095551894563427;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="440" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          h
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.5074135090609555;0.5107084019769357;0.6062602965403624;0.6079077429983525;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="456.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          u
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.5107084019769357;0.5140032948929159;0.6046128500823722;0.6062602965403624;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="473.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          s
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.5140032948929159;0.5172981878088961;0.6029654036243821;0.6046128500823722;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="490.40000000000003" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          i
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.5172981878088961;0.5205930807248764;0.6013179571663919;0.6029654036243821;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="507.20000000000005" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          a
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.5205930807248764;0.5238879736408566;0.5996705107084019;0.601317957166392;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="524" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          s
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.5238879736408566;0.5271828665568368;0.5980230642504117;0.5996705107084019;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="540.8000000000001" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          t
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.5271828665568368;0.5304777594728171;0.5963756177924217;0.5980230642504117;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="20" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          A
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.6820428336079077;0.6853377265238879;0.8995057660626029;0.9011532125205931;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="36.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          l
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.6853377265238879;0.6886326194398682;0.8978583196046128;0.8995057660626029;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="53.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          w
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.6886326194398681;0.6919275123558484;0.8962108731466226;0.8978583196046128;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="70.4" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          a
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.6919275123558484;0.6952224052718287;0.8945634266886326;0.8962108731466227;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="87.2" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          y
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.6952224052718285;0.6985172981878088;0.8929159802306426;0.8945634266886326;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="104" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          s
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.6985172981878088;0.7018121911037891;0.8912685337726524;0.8929159802306426;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="120.80000000000001" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+           
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7018121911037891;0.7051070840197694;0.8896210873146623;0.8912685337726524;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="137.60000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          L
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7051070840197693;0.7084019769357496;0.8879736408566721;0.8896210873146623;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="154.4" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          e
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7084019769357496;0.7116968698517299;0.8863261943986821;0.8879736408566722;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="171.20000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          a
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7116968698517298;0.71499176276771;0.8846787479406919;0.8863261943986821;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="188" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          r
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.71499176276771;0.7182866556836903;0.8830313014827018;0.8846787479406919;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="204.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          n
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7182866556836903;0.7215815485996705;0.8813838550247116;0.8830313014827018;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="221.60000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          i
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7215815485996704;0.7248764415156507;0.8797364085667215;0.8813838550247116;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="238.4" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          n
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7248764415156507;0.728171334431631;0.8780889621087314;0.8797364085667216;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="255.20000000000002" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          g
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7281713344316308;0.7314662273476111;0.8764415156507414;0.8780889621087314;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="272" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          ,
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7314662273476111;0.7347611202635914;0.8747940691927513;0.8764415156507414;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="288.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+           
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7347611202635914;0.7380560131795717;0.8731466227347611;0.8747940691927513;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="305.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          A
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7380560131795716;0.7413509060955519;0.871499176276771;0.8731466227347611;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="322.40000000000003" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          l
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7413509060955519;0.7446457990115322;0.8698517298187809;0.8714991762767711;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="339.2" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          w
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.744645799011532;0.7479406919275123;0.8682042833607908;0.8698517298187809;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="356" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          a
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7479406919275123;0.7512355848434926;0.8665568369028006;0.8682042833607908;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="372.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          y
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7512355848434926;0.7545304777594729;0.8649093904448105;0.8665568369028006;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="389.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          s
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7545304777594727;0.757825370675453;0.8632619439868203;0.8649093904448105;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="406.40000000000003" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+           
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.757825370675453;0.7611202635914333;0.8616144975288303;0.8632619439868204;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="423.20000000000005" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          G
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7611202635914333;0.7644151565074135;0.8599670510708401;0.8616144975288303;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="440" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          r
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7644151565074134;0.7677100494233937;0.8583196046128501;0.8599670510708401;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="456.8" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          o
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7677100494233937;0.771004942339374;0.85667215815486;0.8583196046128501;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="473.6" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          w
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7710049423393739;0.7742998352553542;0.8550247116968698;0.85667215815486;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="490.40000000000003" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          i
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7742998352553542;0.7775947281713345;0.8533772652388798;0.8550247116968699;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="507.20000000000005" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          n
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7775947281713345;0.7808896210873147;0.8517298187808896;0.8533772652388798;1"
+                   repeatCount="indefinite"/>
+        </text>
+        <text x="524" y="49.333333333333336" 
+              style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                     fill: #62F73A; opacity: 0;
+                     filter: drop-shadow(0 0 8px #62F73A);">
+          g
+          <animate attributeName="opacity" 
+                   values="0;0;1;1;0;0" 
+                   dur="30.35s"
+                   keyTimes="0;0.7808896210873146;0.7841845140032949;0.8500823723228995;0.8517298187808896;1"
+                   repeatCount="indefinite"/>
+        </text>
+  
+      <text x="20" y="49.333333333333336" 
+            style="font-family: Fira Code, Consolas, Monaco, monospace; font-size: 28px; font-weight: bold; 
+                   fill: #62F73A;
+                   filter: drop-shadow(0 0 8px #62F73A);">
+        |
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+                          values="20,0;36.8,0;53.6,0;70.4,0;87.2,0;104,0;120.80000000000001,0;137.60000000000002,0;154.4,0;171.20000000000002,0;188,0;204.8,0;221.60000000000002,0;238.4,0;255.20000000000002,0;272,0;288.8,0;305.6,0;322.40000000000003,0;339.2,0;356,0;372.8,0;389.6,0;406.40000000000003,0;423.20000000000005,0;440,0;456.8,0;456.8,0;440,0;423.20000000000005,0;406.40000000000003,0;389.6,0;372.8,0;356,0;339.2,0;322.40000000000003,0;305.6,0;288.8,0;272,0;255.20000000000002,0;238.4,0;221.60000000000002,0;204.8,0;188,0;171.20000000000002,0;154.4,0;137.60000000000002,0;120.80000000000001,0;104,0;87.2,0;70.4,0;53.6,0;36.8,0;20,0;36.8,0;53.6,0;70.4,0;87.2,0;104,0;120.80000000000001,0;137.60000000000002,0;154.4,0;171.20000000000002,0;188,0;204.8,0;221.60000000000002,0;238.4,0;255.20000000000002,0;272,0;288.8,0;305.6,0;322.40000000000003,0;339.2,0;356,0;356,0;339.2,0;322.40000000000003,0;305.6,0;288.8,0;272,0;255.20000000000002,0;238.4,0;221.60000000000002,0;204.8,0;188,0;171.20000000000002,0;154.4,0;137.60000000000002,0;120.80000000000001,0;104,0;87.2,0;70.4,0;53.6,0;36.8,0;20,0;36.8,0;53.6,0;70.4,0;87.2,0;104,0;120.80000000000001,0;137.60000000000002,0;154.4,0;171.20000000000002,0;188,0;204.8,0;221.60000000000002,0;238.4,0;255.20000000000002,0;272,0;288.8,0;305.6,0;322.40000000000003,0;339.2,0;356,0;372.8,0;389.6,0;406.40000000000003,0;423.20000000000005,0;440,0;456.8,0;473.6,0;490.40000000000003,0;507.20000000000005,0;524,0;540.8000000000001,0;557.6,0;557.6,0;540.8000000000001,0;524,0;507.20000000000005,0;490.40000000000003,0;473.6,0;456.8,0;440,0;423.20000000000005,0;406.40000000000003,0;389.6,0;372.8,0;356,0;339.2,0;322.40000000000003,0;305.6,0;288.8,0;272,0;255.20000000000002,0;238.4,0;221.60000000000002,0;204.8,0;188,0;171.20000000000002,0;154.4,0;137.60000000000002,0;120.80000000000001,0;104,0;87.2,0;70.4,0;53.6,0;36.8,0;20,0;36.8,0;53.6,0;70.4,0;87.2,0;104,0;120.80000000000001,0;137.60000000000002,0;154.4,0;171.20000000000002,0;188,0;204.8,0;221.60000000000002,0;238.4,0;255.20000000000002,0;272,0;288.8,0;305.6,0;322.40000000000003,0;339.2,0;356,0;372.8,0;389.6,0;406.40000000000003,0;423.20000000000005,0;440,0;456.8,0;473.6,0;490.40000000000003,0;507.20000000000005,0;524,0;540.8000000000001,0;540.8000000000001,0;524,0;507.20000000000005,0;490.40000000000003,0;473.6,0;456.8,0;440,0;423.20000000000005,0;406.40000000000003,0;389.6,0;372.8,0;356,0;339.2,0;322.40000000000003,0;305.6,0;288.8,0;272,0;255.20000000000002,0;238.4,0;221.60000000000002,0;204.8,0;188,0;171.20000000000002,0;154.4,0;137.60000000000002,0;120.80000000000001,0;104,0;87.2,0;70.4,0;53.6,0;36.8,0;20,0;20,0"
+                          dur="30.35s"
+                          keyTimes="0;0;0.0032948929159802307;0.006589785831960461;0.009884678747940693;0.013179571663920923;0.016474464579901153;0.019769357495881386;0.023064250411861616;0.026359143327841845;0.029654036243822075;0.032948929159802305;0.036243822075782535;0.03953871499176277;0.042833607907742995;0.04612850082372323;0.049423393739703454;0.05271828665568369;0.05601317957166392;0.05930807248764415;0.06260296540362438;0.06589785831960461;0.06919275123558484;0.07248764415156507;0.07578253706754531;0.07907742998352554;0.08237232289950576;0.1515650741350906;0.1515650741350906;0.1532125205930807;0.1548599670510708;0.15650741350906094;0.15815485996705106;0.15980230642504117;0.1614497528830313;0.16309719934102138;0.16474464579901152;0.16639209225700163;0.16803953871499175;0.16968698517298186;0.17133443163097195;0.1729818780889621;0.1746293245469522;0.17627677100494232;0.17792421746293244;0.17957166392092253;0.18121911037891267;0.18286655683690278;0.1845140032948929;0.186161449752883;0.18780889621087313;0.18945634266886324;0.19110378912685336;0.19275123558484347;0.22734761120263589;0.23064250411861612;0.23393739703459634;0.23723228995057657;0.24052718286655683;0.24382207578253703;0.2471169686985173;0.2504118616144975;0.25370675453047775;0.257001647446458;0.2602965403624382;0.26359143327841844;0.26688632619439867;0.2701812191103789;0.2734761120263591;0.2767710049423393;0.2800658978583196;0.2833607907742998;0.28665568369028005;0.2899505766062602;0.35914332784184505;0.35914332784184505;0.3607907742998352;0.3624382207578253;0.3640856672158154;0.3657331136738055;0.36738056013179565;0.3690280065897858;0.3706754530477759;0.372322899505766;0.3739703459637561;0.37561779242174625;0.37726523887973634;0.37891268533772643;0.38056013179571657;0.38220757825370666;0.3838550247116968;0.38550247116968694;0.38714991762767703;0.3887973640856672;0.39044481054365726;0.4250411861614497;0.42833607907742993;0.4316309719934101;0.4349258649093904;0.4382207578253706;0.44151565074135085;0.4448105436573311;0.44810543657331126;0.45140032948929154;0.45469522240527177;0.457990115321252;0.46128500823723223;0.4645799011532124;0.4678747940691927;0.4711696869851729;0.47446457990115315;0.4777594728171334;0.48105436573311355;0.48434925864909384;0.48764415156507407;0.4909390444810543;0.49423393739703453;0.49752883031301476;0.500823723228995;0.5041186161449752;0.5074135090609555;0.5107084019769357;0.5140032948929159;0.5172981878088961;0.5205930807248764;0.5238879736408566;0.5271828665568368;0.5963756177924217;0.5963756177924217;0.5980230642504117;0.5996705107084019;0.6013179571663919;0.6029654036243821;0.6046128500823722;0.6062602965403624;0.6079077429983525;0.6095551894563426;0.6112026359143327;0.6128500823723227;0.614497528830313;0.616144975288303;0.6177924217462931;0.6194398682042832;0.6210873146622734;0.6227347611202635;0.6243822075782537;0.6260296540362437;0.6276771004942339;0.629324546952224;0.630971993410214;0.6326194398682042;0.6342668863261942;0.6359143327841844;0.6375617792421745;0.6392092257001647;0.6408566721581548;0.6425041186161449;0.644151565074135;0.6457990115321252;0.6474464579901152;0.6820428336079077;0.6853377265238879;0.6886326194398681;0.6919275123558484;0.6952224052718285;0.6985172981878088;0.7018121911037891;0.7051070840197693;0.7084019769357496;0.7116968698517298;0.71499176276771;0.7182866556836903;0.7215815485996704;0.7248764415156507;0.7281713344316308;0.7314662273476111;0.7347611202635914;0.7380560131795716;0.7413509060955519;0.744645799011532;0.7479406919275123;0.7512355848434926;0.7545304777594727;0.757825370675453;0.7611202635914333;0.7644151565074134;0.7677100494233937;0.7710049423393739;0.7742998352553542;0.7775947281713345;0.7808896210873146;0.8500823723228995;0.8500823723228995;0.8517298187808896;0.8533772652388798;0.8550247116968698;0.85667215815486;0.8583196046128501;0.8599670510708401;0.8616144975288303;0.8632619439868203;0.8649093904448105;0.8665568369028006;0.8682042833607908;0.8698517298187809;0.871499176276771;0.8731466227347611;0.8747940691927513;0.8764415156507414;0.8780889621087314;0.8797364085667215;0.8813838550247116;0.8830313014827018;0.8846787479406919;0.8863261943986821;0.8879736408566721;0.8896210873146623;0.8912685337726524;0.8929159802306426;0.8945634266886326;0.8962108731466226;0.8978583196046128;0.8995057660626029;1"
+                          repeatCount="indefinite"/>
+      </text>
+</svg>
