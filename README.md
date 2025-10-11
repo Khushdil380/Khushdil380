@@ -136,9 +136,26 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
 
 
-<div align="center">
-  <img align="center" src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/thanks/thanks.gif"alt="Thank for visiting" />
-</div>
+
+<h3 style="margin-top: 0;">👋 Thank You for Visiting!</h3>
+
+<!-- Use an HTML table to ensure text and image appear side-by-side on GitHub -->
+<table width="100%">
+  <tr>
+    <td align="left" valign="middle" style="padding-right:10px;">
+      <p style="margin:0;">
+        I truly appreciate you taking the time to explore my work.<br/>
+        Whether you're a recruiter, fellow developer, or just curious,<br/>
+        I hope you found something inspiring here.<br/>
+        Feel free to connect or star any project that caught your eye!<br/>
+        Happy coding, and have a wonderful day ahead.
+      </p>
+    </td>
+    <td align="right" valign="middle" width="260">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/thanks/thanks.gif" alt="Animated Thank You Badge" width="250" />
+    </td>
+  </tr>
+</table>
 
 
 
