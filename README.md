@@ -165,14 +165,8 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
 <div align="center">
   <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=Khushdil380&label=Visitors&color=0&icon=0&pretty=true" alt="Visitor Count" />
+    <img src="https://visitcount.itsvg.in/api?id=Khushdil380&icon=0&color=0" alt="Visitor Count" />
   </a>
-  
-  <!-- Fallback text link if images are blocked -->
-  <br/>
-  <a href="https://visitcount.itsvg.in/api?id=Khushdil380">Visit Counter</a>
-  
-  <!-- Note: GitHub caches images; allow a few minutes after pushing updates -->
 </div>
 
 ###
