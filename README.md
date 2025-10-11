@@ -1,4 +1,3 @@
-<h1>👋 Hi there </h1>
 <p align="center">
    <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/banner/banner.gif" alt="Typewriter Animation" />
 </p>
