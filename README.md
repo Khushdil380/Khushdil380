@@ -59,8 +59,6 @@
 </table>
 
 
-<h1>Github Contibution</h1>
-<img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/contributiongraph/contribution-graph.svg" width="100%"/>
 
 
 
@@ -71,6 +69,7 @@
   [![LeetCode easy](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/easy.svg)](https://leetcode.com/progress/)
   [![LeetCode medium](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/medium.svg)](https://leetcode.com/progress/)
   [![LeetCode hard](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/hard.svg)](https://leetcode.com/progress/)
+  
   
 </p>
 <div align="center">
