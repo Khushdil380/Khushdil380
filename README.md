@@ -70,7 +70,7 @@
   [![LeetCode medium](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/medium.svg)](https://leetcode.com/progress/)
   [![LeetCode hard](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/hard.svg)](https://leetcode.com/progress/)
   
-  
+
 </p>
 <div align="center">
   <a href="https://leetcode.com/submissions/#/">
@@ -137,7 +137,7 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
 
 <div align="center">
-  <img align="center" src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/contribution-car.svg" alt="Contribution car animation" width="90%" height="300px"/>
+  <img align="center" src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/thanks/thanks.gif"alt="Thank for visiting" />
 </div>
 
 
