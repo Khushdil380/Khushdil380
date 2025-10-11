@@ -144,11 +144,11 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
   <tr>
     <td align="left" valign="middle" style="padding-right:10px;">
       <p style="margin:0;">
-        I truly appreciate you taking the time to explore my work.<br/>
-        Whether you're a recruiter, fellow developer, or just curious,<br/>
-        I hope you found something inspiring here.<br/>
-        Feel free to connect or star any project that caught your eye!<br/>
-        Happy coding, and have a wonderful day ahead.
+        🙏I truly appreciate you taking the time to explore my work.<br/>
+        🤵Whether you're a recruiter, fellow developer, or just curious,<br/>
+        I hope you found something inspiring 💪here.<br/>
+        Feel free to connect 🔎or star any project that caught your eye!<br/>
+        Happy coding😊, and have a wonderful day ahead.
       </p>
     </td>
     <td align="right" valign="middle">
