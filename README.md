@@ -151,8 +151,8 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
         Happy coding, and have a wonderful day ahead.
       </p>
     </td>
-    <td align="right" valign="middle" width="260">
-      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/thanks/thanks.gif" alt="Animated Thank You Badge" width="250" />
+    <td align="right" valign="middle">
+      <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/thanks/thanks.gif" alt="Animated Thank You Badge"/>
     </td>
   </tr>
 </table>
