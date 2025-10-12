@@ -139,21 +139,21 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 </div>
 
 <div align="center">
-  <img height="185" src="https://github-readme-stats.vercel.app/api?username=Khushdil380&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" />
-  <img height="185" src="https://streak-stats.demolab.com?user=Khushdil380&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img height="185" src="https://github-readme-stats.vercel.app/api?u=&v=20251012sername=Khushdil380&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" />
+  <img height="185" src="https://streak-stats.demolab.com?u=&v=20251012ser=Khushdil380&theme=tokyonight&hide_border=true" alt="GitHub streak" />
   
 </div>
 
 <div align="center">
-  <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khushdil380&theme=tokyonight&layout=compact&langs_count=8&hide_border=true" alt="Top languages" />
+  <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?u=&v=20251012sername=Khushdil380&theme=tokyonight&layout=compact&langs_count=8&hide_border=true" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=Khushdil380&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6" alt="GitHub Trophies" />
+  <img width="100%" src="https://github-profile-trophy.vercel.app/?u=&v=20251012sername=Khushdil380&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6" alt="GitHub Trophies" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Khushdil380&theme=tokyo-night&hide_border=true" alt="Contribution activity graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?u=&v=20251012sername=Khushdil380&theme=tokyo-night&hide_border=true" alt="Contribution activity graph" />
 </div>
 
 
