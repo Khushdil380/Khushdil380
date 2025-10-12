@@ -6,19 +6,25 @@ from dateutil.relativedelta import relativedelta
 
 GITHUB_API = "https://api.github.com/graphql"
 
+# Fetch commit contributions over a year window
 QUERY = """
 query($login: String!, $from: DateTime!, $to: DateTime!) {
-  user(login: $login) {
-    contributionsCollection(from: $from, to: $to) {
-      contributionCalendar {
-        weeks { contributionDays { date contributionCount } }
-      }
-      totalCommitContributions
+    user(login: $login) {
+        contributionsCollection(from: $from, to: $to) {
+            contributionCalendar {
+                weeks { contributionDays { date contributionCount } }
+            }
+            totalCommitContributions
+        }
     }
-    issues(states: OPEN, filterBy: {since: $from}) {
-      totalCount
-    }
-  }
+}
+"""
+
+# Get monthly issues created by the user using GraphQL search
+# We count issues (not PRs) created within [from..to-1day]
+SEARCH_ISSUES = """
+query($q: String!) {
+    search(query: $q, type: ISSUE) { issueCount }
 }
 """
 
@@ -60,22 +66,18 @@ def fetch_year_data(login: str, token: str, year: int):
             c = int(daily.get(key, 0))
             commits.append(c)
             total += c
-        # Issues since beginning of month to end of month (approximate using overall since-from totalCount)
-        # GitHub GraphQL issues query above returns since-from total; we compute a per-month delta by refetching
-        # per-month to be more accurate
+        # Monthly issues count (all issues created by the user within the month, PRs excluded)
         month_from = cur
-        month_to = cur + relativedelta(months=1)
-        variables_m = {
-            "login": login,
-            "from": month_from.isoformat() + "Z",
-            "to": month_to.isoformat() + "Z",
-        }
-        resp_m = requests.post(GITHUB_API, json={"query": QUERY, "variables": variables_m}, headers=headers)
+        month_to = cur + relativedelta(months=1) - relativedelta(days=1)
+        q = (
+            f"author:{login} is:issue created:{month_from.strftime('%Y-%m-%d')}..{month_to.strftime('%Y-%m-%d')}"
+        )
+        resp_m = requests.post(GITHUB_API, json={"query": SEARCH_ISSUES, "variables": {"q": q}}, headers=headers)
         resp_m.raise_for_status()
         data_m = resp_m.json()
         if "errors" in data_m:
             raise RuntimeError(f"GraphQL errors: {data_m['errors']}")
-        issues_count = data_m["data"]["user"]["issues"]["totalCount"]
+        issues_count = int(data_m["data"]["search"]["issueCount"]) if data_m.get("data") else 0
 
         out["months"][month_name] = {"commits": commits, "issues": int(issues_count), "total": int(total)}
         cur = cur + relativedelta(months=1)
