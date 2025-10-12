@@ -160,9 +160,6 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
 
 ## 💰 You can help me by Donating
-<div align="center">
-  <img src="https://img.shields.io/badge/You%20can%20donate%20me-%F0%9F%92%97-8A2BE2?style=for-the-badge&labelColor=0D1117" alt="You can donate me" />
-</div>
 
 <div align="center">
   <a href="https://buymeacoffee.com/khushdil380" target="_blank">
