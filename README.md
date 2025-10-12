@@ -13,7 +13,7 @@
 
 <table align="center">
   <tr>
-    ## 📈 GitHub Insights
+    <td>
       <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/html-badge.svg" alt="HTML" width="300"/>
     </td>
     <td align="center">
