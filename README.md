@@ -130,25 +130,28 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 </p>
 
 <div align="center">
-  <img height="28" src="https://img.shields.io/github/followers/Khushdil380?style=for-the-badge&logo=github&label=Followers" alt="Followers" />
-  <img height="28" src="https://img.shields.io/github/stars/Khushdil380?style=for-the-badge&logo=github&label=Total%20Stars" alt="Total Stars" />
+  <img height="32" src="https://img.shields.io/github/followers/Khushdil380?style=for-the-badge&logo=github&label=Followers" alt="Followers" />
+  <img height="32" src="https://img.shields.io/github/stars/Khushdil380?style=for-the-badge&logo=github&label=Total%20Stars" alt="Total Stars" />
+  <img height="32" src="https://img.shields.io/badge/commits-156-blue?style=for-the-badge" alt="Commits (snapshot)" />
+  <img height="32" src="https://img.shields.io/badge/contributions-173-blueviolet?style=for-the-badge" alt="Contributions (snapshot)" />
 </div>
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Khushdil380&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=Khushdil380&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img height="185" src="https://github-readme-stats.vercel.app/api?username=Khushdil380&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" />
+  <img height="185" src="https://streak-stats.demolab.com?user=Khushdil380&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  
 </div>
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khushdil380&theme=tokyonight&layout=compact&langs_count=8&hide_border=true" alt="Top languages" />
+  <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khushdil380&theme=tokyonight&layout=compact&langs_count=8&hide_border=true" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Khushdil380&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6" alt="GitHub Trophies" />
+  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=Khushdil380&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6" alt="GitHub Trophies" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Khushdil380&theme=tokyo-night&hide_border=true" alt="Contribution activity graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Khushdil380&theme=tokyo-night&hide_border=true" alt="Contribution activity graph" />
 </div>
 
 
