@@ -124,7 +124,7 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 [![LinkedIn Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/linkedin-social-badge.svg)](https://www.linkedin.com/in/khushdil-ansari/) [![Email](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/email-social-badge.svg)](mailto:khushdilansari345@gmail.com) [![WhatsApp](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/whatsapp-social-badge.svg)](https://wa.link/m74qd4) [![Medium](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/medium-social-badge.svg)](https://medium.com/@khushdilansari345) [![GitHub](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/github-badge.svg)](https://github.com/Khushdil380) [![Reddit](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/reddit-social-badge.svg)](https://reddit.com/user/RedditUserName) [![X](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/x-social-badge.svg)](https://x.com/XUserName) [![YouTube](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/youtube-social-badge.svg)](https://youtube.com/@YouTubeChannelID)
 
 
-## � GitHub Insights
+## 📈 GitHub Insights
 
 <p align="center">
   I care about clean code, consistent commits, and impactful open‑source.
@@ -139,21 +139,21 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 </div>
 
 <div align="center">
-  <img height="185" src="https://github-readme-stats.vercel.app/api?u=&v=20251012sername=Khushdil380&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" />
-  <img height="185" src="https://streak-stats.demolab.com/?u=&v=20251012ser=Khushdil380&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-  
+  <img height="185" src="https://github-readme-stats.vercel.app/api?username=Khushdil380&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" />
+  <img height="185" src="https://streak-stats.demolab.com?user=Khushdil380&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+
 </div>
 
 <div align="center">
-  <img height="185" src="https://github-readme-stats.vercel.app/api/top-lang?v=20251012s/?u=&v=20251012sername=Khushdil380&theme=tokyonight&layout=compact&langs_count=8&hide_border=true" alt="Top languages" />
+  <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khushdil380&theme=tokyonight&layout=compact&langs_count=8&hide_border=true" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?u=&v=20251012sername=Khushdil380&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6" alt="GitHub Trophies" />
+  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=Khushdil380&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6" alt="GitHub Trophies" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?u=&v=20251012sername=Khushdil380&theme=tokyo-night&hide_border=true" alt="Contribution activity graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Khushdil380&theme=tokyo-night&hide_border=true" alt="Contribution activity graph" />
 </div>
 
 
