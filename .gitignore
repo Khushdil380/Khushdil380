@@ -1,2 +1,4 @@
+src/githubcontribution/contrib.json
+src/githubcontribution/__pycache__/
 /node_modules
 /.env
