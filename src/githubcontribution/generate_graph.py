@@ -28,19 +28,19 @@ def generate_svg(data: Dict) -> str:
     parts: List[str] = [SVG_HEADER.format(w=w, h=h)]
 
     # Title
-    parts.append(render_text(w // 2, 40, f"{data.get('login','')} GitHub Contribution", 28, anchor="middle"))
+    parts.append(render_text(w // 2, 32, f"{data.get('login','')} GitHub Contribution", 26, anchor="middle"))
 
     # Labels: months (left column) and days (top)
-    start_x = m + 120  # left space for month names
-    start_y = m + 40   # top space for day labels
+    start_x = m + 96   # left space for month names
+    start_y = m + 28   # top space for day labels
 
     # Top day numbers 1..31
     for d in range(1, 32):
-        parts.append(render_text(start_x + (d - 1) * (2 * r + gap), start_y - 15, str(d), 12, anchor="middle"))
+        parts.append(render_text(start_x + (d - 1) * (2 * r + gap), start_y - 10, str(d), 12, anchor="middle"))
 
     # Left month names
     for mi, mname in enumerate(MONTH_NAMES):
-        parts.append(render_text(m, start_y + mi * (2 * r + gap), mname[:3], 14))
+        parts.append(render_text(m, start_y + mi * (2 * r + gap), mname[:3], 13))
 
     # Grid of circles per month/day
     for mi, mname in enumerate(MONTH_NAMES):
@@ -56,23 +56,24 @@ def generate_svg(data: Dict) -> str:
                 col = "#1b2238"  # blank area for days not in month
             parts.append(render_circle(cx, cy, r, col))
 
-    # Right side stats
-    right_x = w - m - 120
+    # Right side stats aligned to grid width
+    grid_width = 31 * (2 * r + gap) - gap
+    right_x = start_x + grid_width + 30
     for mi, mname in enumerate(MONTH_NAMES):
         month = data["months"].get(mname, {})
         total = month.get("total", 0)
         issues = month.get("issues", 0)
         y = start_y + mi * (2 * r + gap)
         parts.append(render_text(right_x, y, f"{total}", 14, anchor="end"))
-        parts.append(render_text(right_x + 22, y, f"{issues}", 14))
+        parts.append(render_text(right_x + 20, y, f"{issues}", 14))
         # Trophy emoji if earned (self-contained, no external refs)
         if total >= 50:
             parts.append(f"<text x='{right_x + 52}' y='{y+5}' font-size='16'>🏆</text>")
 
     # Column headers for right-side stats
     # Header labels for right columns (text only to keep SVG standalone)
-    parts.append(render_text(right_x - 6, start_y - 15, "Commits", 12, anchor="end"))
-    parts.append(render_text(right_x + 22, start_y - 15, "Issues", 12))
+    parts.append(render_text(right_x - 6, start_y - 10, "Commits", 12, anchor="end"))
+    parts.append(render_text(right_x + 20, start_y - 10, "Issues", 12))
 
     parts.append(SVG_FOOTER)
     return "\n".join(parts)

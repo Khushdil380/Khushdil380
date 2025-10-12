@@ -30,9 +30,9 @@ def day_color(commit_count: int) -> str:
     return COLOR_STEPS[0]
 
 def layout_constants() -> Tuple[int, int, int, int, int]:
-    # SVG size and cell geometry
-    width, height = 1280, 480
-    cell_r = 8  # circle radius
-    cell_gap = 10  # gap between circles
-    margin = 50
+    # SVG size and cell geometry (tuned to better fill space)
+    width, height = 1280, 420
+    cell_r = 9   # slightly larger circles
+    cell_gap = 8  # a bit tighter gaps
+    margin = 36   # reduced margins
     return width, height, cell_r, cell_gap, margin
