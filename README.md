@@ -165,7 +165,7 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
   <a href="https://buymeacoffee.com/khushdil380" target="_blank">
     <img height="40" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000&labelColor=0D1117" alt="Buy Me a Coffee" />
   </a>
-  <a href="https://paypal.me/your-username" target="_blank">
+  <a href="https://paypal.me/KhushdilAnsari" target="_blank">
     <img height="40" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white&labelColor=0D1117" alt="PayPal" />
   </a>
 </div>
