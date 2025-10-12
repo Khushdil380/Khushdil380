@@ -158,6 +158,12 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
 
 
+## 🧩 Custom GitHub Contribution Graph
+
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/contributiongraph/contrib_graph.svg" alt="Custom contribution graph" />
+</div>
+
 
 ## 💰 You can help me by Donating
 
