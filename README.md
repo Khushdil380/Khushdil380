@@ -109,53 +109,53 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
 
 ## 🌐 Socials:
-<table width="100%">
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0;">
   <tr>
-    <td align="left" valign="middle">
-      <table>
+    <td align="left" valign="middle" style="border:0;">
+      <table cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0;">
         <tr>
-          <td style="padding:4px 8px;">
+          <td style="padding:4px 8px;border:0;">
             <a href="https://www.linkedin.com/in/khushdil-ansari/">
               <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/linkedin-social-badge.svg" alt="LinkedIn" />
             </a>
           </td>
-          <td style="padding:4px 8px;">
+          <td style="padding:4px 8px;border:0;">
             <a href="mailto:khushdilansari345@gmail.com">
               <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/email-social-badge.svg" alt="Email" />
             </a>
           </td>
         </tr>
         <tr>
-          <td style="padding:4px 8px;">
+          <td style="padding:4px 8px;border:0;">
             <a href="https://wa.link/m74qd4">
               <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/whatsapp-social-badge.svg" alt="WhatsApp" />
             </a>
           </td>
-          <td style="padding:4px 8px;">
+          <td style="padding:4px 8px;border:0;">
             <a href="https://medium.com/@khushdilansari345">
               <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/medium-social-badge.svg" alt="Medium" />
             </a>
           </td>
         </tr>
         <tr>
-          <td style="padding:4px 8px;">
+          <td style="padding:4px 8px;border:0;">
             <a href="https://github.com/Khushdil380">
               <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/github-badge.svg" alt="GitHub" />
             </a>
           </td>
-          <td style="padding:4px 8px;">
+          <td style="padding:4px 8px;border:0;">
             <a href="https://reddit.com/user/RedditUserName">
               <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/reddit-social-badge.svg" alt="Reddit" />
             </a>
           </td>
         </tr>
         <tr>
-          <td style="padding:4px 8px;">
+          <td style="padding:4px 8px;border:0;">
             <a href="https://x.com/XUserName">
               <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/x-social-badge.svg" alt="X" />
             </a>
           </td>
-          <td style="padding:4px 8px;">
+          <td style="padding:4px 8px;border:0;">
             <a href="https://youtube.com/@YouTubeChannelID">
               <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/youtube-social-badge.svg" alt="YouTube" />
             </a>
@@ -163,7 +163,7 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
         </tr>
       </table>
     </td>
-    <td align="right" valign="middle" width="150px">
+    <td align="right" valign="middle" width="150px" style="border:0;">
       <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/social.svg" alt="Social Preview" height="200" width="100%" />
     </td>
   </tr>
