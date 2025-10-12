@@ -115,7 +115,7 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
       
 [![LinkedIn Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/linkedin-social-badge.svg)](https://www.linkedin.com/in/khushdil-ansari/) [![Email](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/email-social-badge.svg)](mailto:khushdilansari345@gmail.com) [![WhatsApp](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/whatsapp-social-badge.svg)](https://wa.link/m74qd4) [![Medium](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/medium-social-badge.svg)](https://medium.com/@khushdilansari345) [![GitHub](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/github-badge.svg)](https://github.com/Khushdil380) [![Reddit](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/reddit-social-badge.svg)](https://reddit.com/user/RedditUserName) [![X](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/x-social-badge.svg)](https://x.com/XUserName) [![YouTube](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/youtube-social-badge.svg)](https://youtube.com/@YouTubeChannelID)
     </td>
-    <td align="right" valign="middle" width="1%">
+    <td align="right" valign="middle" width="30%">
       <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/social.svg" alt="Social Preview" height="120" />
     </td>
   </tr>
