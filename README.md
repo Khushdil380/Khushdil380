@@ -163,7 +163,7 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
         </tr>
       </table>
     </td>
-    <td align="right" valign="middle" width="30%">
+    <td align="right" valign="middle" width="150px">
       <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/social.svg" alt="Social Preview" height="200" width="100%" />
     </td>
   </tr>
