@@ -75,7 +75,7 @@
 
 
 
-<h1>🌟 My Top Picks</h1>
+<h2>🌟 My Top Picks</h2>
 Here are some of my favorite projects that I personally use, maintain, or feel proud of. Explore them to see what I've been working on!
 
 ### 🚀 Featured Projects
