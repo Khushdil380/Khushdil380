@@ -1,0 +1,12 @@
+
+<svg xmlns='http://www.w3.org/2000/svg' width='360' height='136' viewBox='0 0 360 136' style='background:#0b1020'>
+  <style>
+    .title { fill:#e6edf3; font: 600 18px "Segoe UI", Arial, sans-serif; }
+    .label { fill:#a9b1d6; font: 12px "Segoe UI", Arial, sans-serif; }
+    .value { fill:#e6edf3; font: 14px "Segoe UI", Arial, sans-serif; }
+  </style>
+  <text x='180' y='22' text-anchor='middle' class='title'>GeeksForGeeks</text>
+  <text x='20' y='48' class='label'>Problems Solved</text><text x='340' y='48' class='value' text-anchor='end'>0</text>
+  <text x='20' y='72' class='label'>School/Basic/Medium</text><text x='340' y='72' class='value' text-anchor='end'>0/0/0</text>
+  <text x='20' y='96' class='label'>Rank</text><text x='340' y='96' class='value' text-anchor='end'>None</text>
+</svg>

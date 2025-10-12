@@ -61,29 +61,20 @@
 
 
 
+## 🧮 Coding Platform Stats
 
-<h1>🏆 LeetCode</h1>
-<p align="center">
-  
-  [![LeetCode Total](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/total_solved.svg)](https://leetcode.com/progress/)
-
-
-  [![LeetCode easy](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/easy.svg)](https://leetcode.com/progress/)
-  [![LeetCode medium](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/medium.svg)](https://leetcode.com/progress/)
-  [![LeetCode hard](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/hard.svg)](https://leetcode.com/progress/)
-  
-
-</p>
 <div align="center">
-  <a href="https://leetcode.com/submissions/#/">
-    <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/recent_submissions.svg" alt="LeetCode recent" />
-  </a>
+  <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/coding-platform/leetcode.svg" alt="LeetCode Stats" height="160"/>
+  <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/coding-platform/gfg.svg" alt="GeeksForGeeks Stats" height="160"/>
+  <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/coding-platform/codeforces.svg" alt="Codeforces Stats" height="160"/>
+  <br/>
+  <sub>Auto-updates daily via GitHub Actions</sub>
 </div>
 
 
-<!-- Streak moved into the Insights section to avoid duplication -->
-<!-- Streak moved into the Insights section below to avoid duplication -->
-    
+
+
+
 <h1>🌟 My Top Picks</h1>
 Here are some of my favorite projects that I personally use, maintain, or feel proud of. Explore them to see what I've been working on!
 
@@ -99,10 +90,8 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 > 🗂️ You can find all my other projects [here](https://github.com/Khushdil380?tab=repositories).
 
 
-
-
   
-</table>
+
 
 
 <h1> 🚀 Projects </h1>
