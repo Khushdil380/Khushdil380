@@ -21,7 +21,7 @@ def generate_svg(data: Dict) -> str:
     parts: List[str] = [SVG_HEADER.format(w=w, h=h)]
 
     # Title
-    parts.append(render_text(w // 2, 40, f"{data.get('login','')} Github Contribution", 28, anchor="middle"))
+    parts.append(render_text(w // 2, 40, f"{data.get('login','')} GitHub Contribution", 28, anchor="middle"))
 
     # Labels: months (left column) and days (top)
     start_x = m + 120  # left space for month names
@@ -50,22 +50,24 @@ def generate_svg(data: Dict) -> str:
             parts.append(render_circle(cx, cy, r, col))
 
     # Right side stats
-    right_x = w - m - 120
+    right_x = w - m - 140
     for mi, mname in enumerate(MONTH_NAMES):
         month = data["months"].get(mname, {})
         total = month.get("total", 0)
         issues = month.get("issues", 0)
         y = start_y + mi * (2 * r + gap)
         parts.append(render_text(right_x, y, f"{total}", 14, anchor="end"))
-        parts.append(render_text(right_x + 20, y, f"{issues}", 14))
-        # Trophy
+        parts.append(render_text(right_x + 24, y, f"{issues}", 14))
+        # Trophy icon if earned
         if total >= 50:
-            parts.append(f"<text x='{right_x + 60}' y='{y+5}' font-size='18'>🏆</text>")
+            parts.append(f"<image href='icons/trophy.svg' x='{right_x + 58}' y='{y-12}' width='20' height='20' />")
 
     # Column headers for right-side stats
-    parts.append(render_text(right_x, start_y - 15, "Commits", 12, anchor="end"))
-    parts.append(render_text(right_x + 20, start_y - 15, "Issues", 12))
-    parts.append(render_text(right_x + 60, start_y - 15, " ", 12))
+    # Header icons and labels for right columns
+    parts.append(render_text(right_x - 6, start_y - 15, "Commits", 12, anchor="end"))
+    parts.append(f"<image href='icons/commit.svg' x='{right_x + 2}' y='{start_y - 28}' width='14' height='14' />")
+    parts.append(render_text(right_x + 24, start_y - 15, "Issues", 12))
+    parts.append(f"<image href='icons/issue.svg' x='{right_x + 70}' y='{start_y - 28}' width='14' height='14' />")
 
     parts.append(SVG_FOOTER)
     return "\n".join(parts)
