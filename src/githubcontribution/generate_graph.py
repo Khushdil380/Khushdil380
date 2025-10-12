@@ -1,6 +1,13 @@
 import os
+import sys
 import json
 from typing import Dict, List
+
+# Ensure imports work when running as a script from repo root
+SCRIPT_DIR = os.path.dirname(__file__)
+if SCRIPT_DIR not in sys.path:
+    sys.path.insert(0, SCRIPT_DIR)
+
 from utils import MONTH_NAMES, day_color, layout_constants, days_in_month, current_year
 
 SVG_HEADER = """<svg xmlns='http://www.w3.org/2000/svg' width='{w}' height='{h}' viewBox='0 0 {w} {h}' style='background:#0b1020'>"""
@@ -50,24 +57,22 @@ def generate_svg(data: Dict) -> str:
             parts.append(render_circle(cx, cy, r, col))
 
     # Right side stats
-    right_x = w - m - 140
+    right_x = w - m - 120
     for mi, mname in enumerate(MONTH_NAMES):
         month = data["months"].get(mname, {})
         total = month.get("total", 0)
         issues = month.get("issues", 0)
         y = start_y + mi * (2 * r + gap)
         parts.append(render_text(right_x, y, f"{total}", 14, anchor="end"))
-        parts.append(render_text(right_x + 24, y, f"{issues}", 14))
-        # Trophy icon if earned
+        parts.append(render_text(right_x + 22, y, f"{issues}", 14))
+        # Trophy emoji if earned (self-contained, no external refs)
         if total >= 50:
-            parts.append(f"<image href='icons/trophy.svg' x='{right_x + 58}' y='{y-12}' width='20' height='20' />")
+            parts.append(f"<text x='{right_x + 52}' y='{y+5}' font-size='16'>🏆</text>")
 
     # Column headers for right-side stats
-    # Header icons and labels for right columns
+    # Header labels for right columns (text only to keep SVG standalone)
     parts.append(render_text(right_x - 6, start_y - 15, "Commits", 12, anchor="end"))
-    parts.append(f"<image href='icons/commit.svg' x='{right_x + 2}' y='{start_y - 28}' width='14' height='14' />")
-    parts.append(render_text(right_x + 24, start_y - 15, "Issues", 12))
-    parts.append(f"<image href='icons/issue.svg' x='{right_x + 70}' y='{start_y - 28}' width='14' height='14' />")
+    parts.append(render_text(right_x + 22, start_y - 15, "Issues", 12))
 
     parts.append(SVG_FOOTER)
     return "\n".join(parts)
