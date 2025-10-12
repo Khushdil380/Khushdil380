@@ -5,19 +5,25 @@ const fs = require('fs');
 const path = require('path');
 
 const targets = [
-  'github-readme-stats.vercel.app/api?',
-  'streak-stats.demolab.com?',
-  'github-readme-stats.vercel.app/api/top-langs?',
-  'github-profile-trophy.vercel.app/?',
-  'github-readme-activity-graph.vercel.app/graph?'
+  'github-readme-stats.vercel.app/api',
+  'streak-stats.demolab.com',
+  'github-readme-stats.vercel.app/api/top-langs',
+  'github-profile-trophy.vercel.app',
+  'github-readme-activity-graph.vercel.app/graph'
 ];
 
-function addOrUpdateV(url, v) {
-  if (!url.includes('?')) return url; // only process URLs with query
-  const [base, query] = url.split('?');
-  const params = new URLSearchParams(query);
-  params.set('v', v);
-  return `${base}?${params.toString()}`;
+function addOrUpdateV(urlStr, v) {
+  try {
+    const u = new URL(urlStr);
+    u.searchParams.set('v', v);
+    return u.toString();
+  } catch (_) {
+    return urlStr; // leave unchanged if parsing fails
+  }
+}
+
+function escapeRegExp(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 function refreshReadme(file) {
@@ -27,9 +33,10 @@ function refreshReadme(file) {
 
   let updated = content;
 
-  // Replace every markdown/image src that matches targets
+  // Replace every markdown/image src that matches targets using safe matching
   targets.forEach(host => {
-    const regex = new RegExp(`(https://(?:[^\s"']*${host}[^\s"')]+))`, 'g');
+    const rxHost = escapeRegExp(host);
+    const regex = new RegExp(`https://[^\s"']*${rxHost}[^\s"']*`, 'g');
     updated = updated.replace(regex, (match) => addOrUpdateV(match, v));
   });
 
