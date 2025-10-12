@@ -13,7 +13,7 @@
 
 <table align="center">
   <tr>
-    <td align="center">
+    ## 📈 GitHub Insights
       <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/html-badge.svg" alt="HTML" width="300"/>
     </td>
     <td align="center">
@@ -66,6 +66,8 @@
 <p align="center">
   
   [![LeetCode Total](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/total_solved.svg)](https://leetcode.com/progress/)
+
+
   [![LeetCode easy](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/easy.svg)](https://leetcode.com/progress/)
   [![LeetCode medium](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/medium.svg)](https://leetcode.com/progress/)
   [![LeetCode hard](https://raw.githubusercontent.com/Khushdil380/Khushdil380/refs/heads/main/assets/hard.svg)](https://leetcode.com/progress/)
@@ -183,12 +185,8 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 </table>
 
 
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Khushdil380&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" height="40" />
+</div>
 
 
-
-###
-
-<!-- Legacy GitHub Stats block removed; consolidated below into GitHub Insights. -->
-
-###
-## 📈 GitHub Insights
