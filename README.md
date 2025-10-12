@@ -158,8 +158,21 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
 
 
+
 ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jj) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/jkk) [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/kk) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/kk) 
+<div align="center">
+  <img src="https://img.shields.io/badge/You%20can%20donate%20me-%F0%9F%92%97-8A2BE2?style=for-the-badge&labelColor=0D1117" alt="You can donate me" />
+</div>
+
+<div align="center">
+  <a href="https://buymeacoffee.com/khushdil380" target="_blank">
+    <img height="40" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000&labelColor=0D1117" alt="Buy Me a Coffee" />
+  </a>
+  <a href="https://paypal.me/your-username" target="_blank">
+    <img height="40" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white&labelColor=0D1117" alt="PayPal" />
+  </a>
+</div>
+  
 
 
 
