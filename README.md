@@ -112,8 +112,56 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 <table width="100%">
   <tr>
     <td align="left" valign="middle">
-      
-[![LinkedIn Badge](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/linkedin-social-badge.svg)](https://www.linkedin.com/in/khushdil-ansari/) [![Email](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/email-social-badge.svg)](mailto:khushdilansari345@gmail.com) [![WhatsApp](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/whatsapp-social-badge.svg)](https://wa.link/m74qd4) [![Medium](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/medium-social-badge.svg)](https://medium.com/@khushdilansari345) [![GitHub](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/github-badge.svg)](https://github.com/Khushdil380) [![Reddit](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/reddit-social-badge.svg)](https://reddit.com/user/RedditUserName) [![X](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/x-social-badge.svg)](https://x.com/XUserName) [![YouTube](https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/youtube-social-badge.svg)](https://youtube.com/@YouTubeChannelID)
+      <table>
+        <tr>
+          <td style="padding:4px 8px;">
+            <a href="https://www.linkedin.com/in/khushdil-ansari/">
+              <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/linkedin-social-badge.svg" alt="LinkedIn" />
+            </a>
+          </td>
+          <td style="padding:4px 8px;">
+            <a href="mailto:khushdilansari345@gmail.com">
+              <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/email-social-badge.svg" alt="Email" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:4px 8px;">
+            <a href="https://wa.link/m74qd4">
+              <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/whatsapp-social-badge.svg" alt="WhatsApp" />
+            </a>
+          </td>
+          <td style="padding:4px 8px;">
+            <a href="https://medium.com/@khushdilansari345">
+              <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/medium-social-badge.svg" alt="Medium" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:4px 8px;">
+            <a href="https://github.com/Khushdil380">
+              <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/skill/skilloutput/github-badge.svg" alt="GitHub" />
+            </a>
+          </td>
+          <td style="padding:4px 8px;">
+            <a href="https://reddit.com/user/RedditUserName">
+              <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/reddit-social-badge.svg" alt="Reddit" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:4px 8px;">
+            <a href="https://x.com/XUserName">
+              <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/x-social-badge.svg" alt="X" />
+            </a>
+          </td>
+          <td style="padding:4px 8px;">
+            <a href="https://youtube.com/@YouTubeChannelID">
+              <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/socialoutput/youtube-social-badge.svg" alt="YouTube" />
+            </a>
+          </td>
+        </tr>
+      </table>
     </td>
     <td align="right" valign="middle" width="30%">
       <img src="https://raw.githubusercontent.com/Khushdil380/Khushdil380/main/assets/social/social.svg" alt="Social Preview" height="120" />
