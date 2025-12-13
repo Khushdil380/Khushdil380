@@ -2,12 +2,12 @@
   "leetcode": {
     "platform": "LeetCode",
     "username": "Khushdil380",
-    "total": 1,
+    "total": 2,
     "easy": 1,
-    "medium": 0,
+    "medium": 1,
     "hard": 0,
     "ranking": 5000001,
-    "updated": "2025-12-12T02:59:29.217446Z"
+    "updated": "2025-12-13T02:51:19.552547Z"
   },
   "gfg": {
     "platform": "GeeksForGeeks",
@@ -17,7 +17,7 @@
     "medium": 0,
     "hard": 0,
     "ranking": null,
-    "updated": "2025-12-12T02:59:32.201589Z"
+    "updated": "2025-12-13T02:51:21.928365Z"
   },
   "codeforces": {
     "platform": "Codeforces",
@@ -28,6 +28,6 @@
     "maxRank": null,
     "totalSubmissions": null,
     "error": "list index out of range",
-    "updated": "2025-12-12T02:59:37.680685Z"
+    "updated": "2025-12-13T02:51:22.361198Z"
   }
 }
