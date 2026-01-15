@@ -57,7 +57,7 @@
 <circle cx='428' cy='68' r='10' fill='#30a14e'/>
 <circle cx='456' cy='68' r='10' fill='#40c463'/>
 <circle cx='484' cy='68' r='10' fill='#40c463'/>
-<circle cx='512' cy='68' r='10' fill='#808080'/>
+<circle cx='512' cy='68' r='10' fill='#40c463'/>
 <circle cx='540' cy='68' r='10' fill='#808080'/>
 <circle cx='568' cy='68' r='10' fill='#808080'/>
 <circle cx='596' cy='68' r='10' fill='#808080'/>
@@ -415,7 +415,7 @@
 <circle cx='904' cy='376' r='10' fill='#808080'/>
 <circle cx='932' cy='376' r='10' fill='#808080'/>
 <circle cx='960' cy='376' r='10' fill='#808080'/>
-<text x='1030' y='68' font-size='14' text-anchor='end' style='fill:#e6edf3;font-family:Segoe UI, Arial, sans-serif;'>84</text>
+<text x='1030' y='68' font-size='14' text-anchor='end' style='fill:#e6edf3;font-family:Segoe UI, Arial, sans-serif;'>89</text>
 <text x='1048' y='68' font-size='14' text-anchor='start' style='fill:#e6edf3;font-family:Segoe UI, Arial, sans-serif;'>0</text>
 <text x='1074' y='73' font-size='16'>🏆</text>
 <text x='1030' y='96' font-size='14' text-anchor='end' style='fill:#e6edf3;font-family:Segoe UI, Arial, sans-serif;'>0</text>
