@@ -150,7 +150,6 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
   
 </table>
 
-
 ## 📈 GitHub Insights
 
 <p align="center">
@@ -172,7 +171,7 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 
 <div align="center">
   <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Khushdil380&theme=tokyonight" alt="GitHub Stats Card" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khushdil380&theme=tokyonight&layout=compact&hide_border=true&langs_count=8" alt="Most Used Languages" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Khushdil380&theme=tokyonight" alt="Most Used Languages Card" />
 </div>
 
 <h3 align="center">🎯 Languages & Tools</h3>
@@ -216,7 +215,6 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
     <img height="40" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white&labelColor=0D1117" alt="PayPal" />
   </a>
 </div>
-
 
 <h3 style="margin-top: 0;">👋 Thank You for Visiting!</h3>
 
