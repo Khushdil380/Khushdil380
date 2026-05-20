@@ -161,8 +161,9 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 <div align="center">
   <img height="32" src="https://img.shields.io/github/followers/Khushdil380?style=for-the-badge&logo=github&label=Followers" alt="Followers" />
   <img height="32" src="https://img.shields.io/github/stars/Khushdil380?style=for-the-badge&logo=github&label=Total%20Stars" alt="Total Stars" />
-  <img height="32" src="https://img.shields.io/badge/commits-386-blue?style=for-the-badge" alt="Commits" />
-  <img height="32" src="https://img.shields.io/badge/contributions-397-blueviolet?style=for-the-badge" alt="Contributions" />
+  <img height="32" src="https://img.shields.io/badge/Public%20Repos-25+-informational?style=for-the-badge" alt="Public Repos" />
+  <img height="32" src="https://img.shields.io/badge/Total%20Commits-386-brightgreen?style=for-the-badge" alt="Commits" />
+  <img height="32" src="https://img.shields.io/badge/Contributions-397-blueviolet?style=for-the-badge" alt="Contributions" />
 </div>
 
 <div align="center">
@@ -170,8 +171,25 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Khushdil380&theme=tokyonight" alt="GitHub Stats" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/top-langs?username=Khushdil380&theme=tokyonight" alt="Most Used Languages" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Khushdil380&theme=tokyonight" alt="GitHub Stats Card" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khushdil380&theme=tokyonight&layout=compact&hide_border=true&langs_count=8" alt="Most Used Languages" />
+</div>
+
+<h3 align="center">🎯 Languages & Tools</h3>
+<div align="center">
+  <img height="32" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img height="32" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img height="32" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img height="32" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img height="32" src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+  <img height="32" src="https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img height="32" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img height="32" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img height="32" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img height="32" src="https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img height="32" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  <img height="32" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img height="32" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
 </div>
 
 <div align="center">
