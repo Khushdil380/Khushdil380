@@ -6,7 +6,7 @@
     .value { fill:#e6edf3; font: 14px "Segoe UI", Arial, sans-serif; }
   </style>
   <text x='180' y='22' text-anchor='middle' class='title'>LeetCode</text>
-  <text x='20' y='48' class='label'>Total Solved</text><text x='340' y='48' class='value' text-anchor='end'>1</text>
-  <text x='20' y='72' class='label'>Easy/Med/Hard</text><text x='340' y='72' class='value' text-anchor='end'>1/0/0</text>
+  <text x='20' y='48' class='label'>Total Solved</text><text x='340' y='48' class='value' text-anchor='end'>2</text>
+  <text x='20' y='72' class='label'>Easy/Med/Hard</text><text x='340' y='72' class='value' text-anchor='end'>1/1/0</text>
   <text x='20' y='96' class='label'>Ranking</text><text x='340' y='96' class='value' text-anchor='end'>5000001</text>
 </svg>
