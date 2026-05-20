@@ -161,13 +161,17 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 <div align="center">
   <img height="32" src="https://img.shields.io/github/followers/Khushdil380?style=for-the-badge&logo=github&label=Followers" alt="Followers" />
   <img height="32" src="https://img.shields.io/github/stars/Khushdil380?style=for-the-badge&logo=github&label=Total%20Stars" alt="Total Stars" />
-  <img height="32" src="https://img.shields.io/badge/commits-386-blue?style=for-the-badge" alt="Commits (snapshot)" />
-  <img height="32" src="https://img.shields.io/badge/contributions-397-blueviolet?style=for-the-badge" alt="Contributions (snapshot)" />
+  <img height="32" src="https://img.shields.io/badge/commits-386-blue?style=for-the-badge" alt="Commits" />
+  <img height="32" src="https://img.shields.io/badge/contributions-397-blueviolet?style=for-the-badge" alt="Contributions" />
 </div>
 
 <div align="center">
-  <p><strong>📊 GitHub Statistics</strong></p>
-  <p>Check out my repositories and contributions directly on <a href="https://github.com/Khushdil380">my GitHub profile</a> for detailed stats and language breakdowns.</p>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Khushdil380&theme=tokyonight" alt="GitHub Profile Summary" />
+</div>
+
+<div align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Khushdil380&theme=tokyonight" alt="GitHub Stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/top-langs?username=Khushdil380&theme=tokyonight" alt="Most Used Languages" />
 </div>
 
 <div align="center">
