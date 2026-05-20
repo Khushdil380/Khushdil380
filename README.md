@@ -187,8 +187,8 @@ Here are some of my favorite projects that I personally use, maintain, or feel p
 <div align="center">
   <img height="32" src="https://img.shields.io/github/followers/Khushdil380?style=for-the-badge&logo=github&label=Followers" alt="Followers" />
   <img height="32" src="https://img.shields.io/github/stars/Khushdil380?style=for-the-badge&logo=github&label=Total%20Stars" alt="Total Stars" />
-  <img height="32" src="https://img.shields.io/badge/commits-413-blue?style=for-the-badge" alt="Commits (snapshot)" />
-  <img height="32" src="https://img.shields.io/badge/contributions-426-blueviolet?style=for-the-badge" alt="Contributions (snapshot)" />
+  <img height="32" src="https://img.shields.io/badge/commits-386-blue?style=for-the-badge" alt="Commits (snapshot)" />
+  <img height="32" src="https://img.shields.io/badge/contributions-397-blueviolet?style=for-the-badge" alt="Contributions (snapshot)" />
 </div>
 
 <div align="center">
