@@ -7,7 +7,7 @@
     "medium": 1,
     "hard": 0,
     "ranking": 5000001,
-    "updated": "2026-08-03T04:46:39.842451Z"
+    "updated": "2026-08-04T04:31:14.510660Z"
   },
   "gfg": {
     "platform": "GeeksForGeeks",
@@ -17,7 +17,7 @@
     "medium": 0,
     "hard": 0,
     "ranking": null,
-    "updated": "2026-08-03T04:46:40.797606Z"
+    "updated": "2026-08-04T04:31:15.912154Z"
   },
   "codeforces": {
     "platform": "Codeforces",
@@ -27,7 +27,7 @@
     "rank": null,
     "maxRank": null,
     "totalSubmissions": null,
-    "error": "HTTPSConnectionPool(host='codeforces.com', port=443): Read timed out. (read timeout=20)",
-    "updated": "2026-08-03T04:47:18.741806Z"
+    "error": "list index out of range",
+    "updated": "2026-08-04T04:31:18.392194Z"
   }
 }
