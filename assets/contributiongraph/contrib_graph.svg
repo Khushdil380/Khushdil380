@@ -350,7 +350,7 @@
 <circle cx='820' cy='320' r='10' fill='#808080'/>
 <circle cx='848' cy='320' r='10' fill='#9be9a8'/>
 <circle cx='876' cy='320' r='10' fill='#30a14e'/>
-<circle cx='904' cy='320' r='10' fill='#808080'/>
+<circle cx='904' cy='320' r='10' fill='#9be9a8'/>
 <circle cx='932' cy='320' r='10' fill='#808080'/>
 <circle cx='960' cy='320' r='10' fill='#808080'/>
 <circle cx='120' cy='348' r='10' fill='#808080'/>
@@ -436,7 +436,7 @@
 <text x='1048' y='264' font-size='14' text-anchor='start' style='fill:#e6edf3;font-family:Segoe UI, Arial, sans-serif;'>0</text>
 <text x='1030' y='292' font-size='14' text-anchor='end' style='fill:#e6edf3;font-family:Segoe UI, Arial, sans-serif;'>0</text>
 <text x='1048' y='292' font-size='14' text-anchor='start' style='fill:#e6edf3;font-family:Segoe UI, Arial, sans-serif;'>0</text>
-<text x='1030' y='320' font-size='14' text-anchor='end' style='fill:#e6edf3;font-family:Segoe UI, Arial, sans-serif;'>15</text>
+<text x='1030' y='320' font-size='14' text-anchor='end' style='fill:#e6edf3;font-family:Segoe UI, Arial, sans-serif;'>19</text>
 <text x='1048' y='320' font-size='14' text-anchor='start' style='fill:#e6edf3;font-family:Segoe UI, Arial, sans-serif;'>0</text>
 <text x='1030' y='348' font-size='14' text-anchor='end' style='fill:#e6edf3;font-family:Segoe UI, Arial, sans-serif;'>0</text>
 <text x='1048' y='348' font-size='14' text-anchor='start' style='fill:#e6edf3;font-family:Segoe UI, Arial, sans-serif;'>0</text>

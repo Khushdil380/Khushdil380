@@ -357,13 +357,13 @@
         0,
         0,
         1,
-        10,
-        0,
+        13,
+        1,
         0,
         0
       ],
       "issues": 0,
-      "total": 15
+      "total": 19
     },
     "November": {
       "commits": [
