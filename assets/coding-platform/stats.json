@@ -7,7 +7,7 @@
     "medium": 1,
     "hard": 0,
     "ranking": 5000001,
-    "updated": "2026-11-17T09:13:13.067412Z"
+    "updated": "2026-11-18T08:32:36.222809Z"
   },
   "gfg": {
     "platform": "GeeksForGeeks",
@@ -17,7 +17,7 @@
     "medium": 0,
     "hard": 0,
     "ranking": null,
-    "updated": "2026-11-17T09:13:13.557741Z"
+    "updated": "2026-11-18T08:32:37.606451Z"
   },
   "codeforces": {
     "platform": "Codeforces",
@@ -28,6 +28,6 @@
     "maxRank": null,
     "totalSubmissions": null,
     "error": "list index out of range",
-    "updated": "2026-11-17T09:13:14.190465Z"
+    "updated": "2026-11-18T08:32:38.100713Z"
   }
 }
